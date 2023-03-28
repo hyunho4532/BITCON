@@ -1,0 +1,30 @@
+Trace file C:\APP\HYUN\PRODUCT\21C\diag\rdbms\xe\xe\trace\xe_j000_4600_7772.trc
+Oracle Database 21c Express Edition Release 21.0.0.0.0 - Production
+Version 21.3.0.0.0
+Build label:    RDBMS_21.3.0.0.0_WINDOWS.X64_210927
+Windows NT Version V10.0  OS Build 19044
+ORACLE_HOME = C:\app\hyun\product\21c\dbhomeXE
+Node name           : DESKTOP-JPA1DKK
+CPU                 : 6 - type 86646 physical cores
+Process Affinity    : 0x0000000000000000
+Memory (Avail/Total): Ph:5845M/16317M, Ph+PgF:10016M/28093M 
+Instance name: xe
+Redo thread mounted by this instance: 1
+Oracle process number: 58
+Windows thread id: 4600, thread id: 7772, image: ORACLE.EXE (J000)
+
+
+*** 2023-03-06T21:38:29.586061+09:00 (XEPDB1(3))
+*** SESSION ID:(513.41541) 2023-03-06T21:38:29.586061+09:00
+*** CLIENT ID:() 2023-03-06T21:38:29.586061+09:00
+*** SERVICE NAME:(SYS$USERS) 2023-03-06T21:38:29.586061+09:00
+*** MODULE NAME:(SYS_AUTO_STS_MODULE) 2023-03-06T21:38:29.586061+09:00
+*** ACTION NAME:(CAPTURE_CURSOR_CACHE) 2023-03-06T21:38:29.586061+09:00
+*** CLIENT DRIVER:(SERVER) 2023-03-06T21:38:29.586061+09:00
+*** CONTAINER ID:(3) 2023-03-06T21:38:29.586061+09:00
+*** CONTAINER ID:(3) 2023-03-06T21:38:29.586061+09:00
+ 
+*** KEUUXS - encountered error: (ORA-01502: index 'SYS.WRH$_SQLTEXT_PK' or partition of such index is in unusable state
+)  
+  *** SQLSTR: total-len=519, dump-len=519, 
+      SQLSTR={INSERT INTO  wrh$_sqltext                     (sql_id, dbid,                       sql_text, command_type,                       snap_id, con_dbid, per_pdb)      SELECT :sql_id, :dbid,             :sql_text, :command_type,             :lah_snap_id, :con_dbid, :con_id      FROM dual      WHERE NOT EXISTS (SELECT 1 FROM  wrh$_sqltext  stx                                WHERE stx.sql_id = :sql_id2                                   AND stx.dbid   = :dbid2                                   AND stx.con_dbid = :con_dbid)}

@@ -1,0 +1,160 @@
+<msg time='2022-08-24T22:03:26.090+09:00' org_id='oracle' comp_id='rdbms'
+ msg_id='1' client_id='521' type='UNKNOWN'
+ group='READ MDX CURSORS' level='16' host_id='DESKTOP-JPA1DKK'
+ host_addr='fe80::ed24:7bff:744d:9dc6%5' module='1' pid='9340'
+ user='70066' prob_key='30807' version='3'
+ con_uid='1' con_id='1' con_name='CDB$ROOT'>
+ <txt>START
+ </txt>
+ <suppl_detail><![CDATA[]]></suppl_detail>
+</msg>
+<msg time='2022-08-24T22:03:26.091+09:00' org_id='oracle' comp_id='rdbms'
+ msg_id='2' client_id='521' type='UNKNOWN'
+ group='READ MDX CURSORS' level='16' host_id='DESKTOP-JPA1DKK'
+ host_addr='fe80::ed24:7bff:744d:9dc6%5' module='1' pid='9340'
+ user='70066' prob_key='30807' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>CLOUD
+ </txt>
+ <suppl_detail><![CDATA[FALSE]]></suppl_detail>
+</msg>
+<msg time='2022-08-24T22:03:26.092+09:00' org_id='oracle' comp_id='rdbms'
+ msg_id='3' client_id='521' type='UNKNOWN'
+ group='READ MDX CURSORS' level='16' host_id='DESKTOP-JPA1DKK'
+ host_addr='fe80::ed24:7bff:744d:9dc6%5' module='1' pid='9340'
+ user='70066' prob_key='30807' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>ALLOC TOTAL
+ </txt>
+ <suppl_detail><![CDATA[654]]></suppl_detail>
+</msg>
+<msg time='2022-08-24T22:03:26.093+09:00' org_id='oracle' comp_id='rdbms'
+ msg_id='4' client_id='521' type='UNKNOWN'
+ group='READ MDX CURSORS' level='16' host_id='DESKTOP-JPA1DKK'
+ host_addr='fe80::ed24:7bff:744d:9dc6%5' module='1' pid='9340'
+ user='70066' prob_key='30807' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>END
+ </txt>
+ <suppl_detail><![CDATA[]]></suppl_detail>
+</msg>
+<msg time='2022-08-24T22:03:26.120+09:00' org_id='oracle' comp_id='rdbms'
+ msg_id='1' client_id='521' type='UNKNOWN'
+ group='READ MDX CURSOR DEPENDENCIES' level='16' host_id='DESKTOP-JPA1DKK'
+ host_addr='fe80::ed24:7bff:744d:9dc6%5' module='2' pid='9340'
+ user='70066' prob_key='30807' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>START
+ </txt>
+ <suppl_detail><![CDATA[]]></suppl_detail>
+</msg>
+<msg time='2022-08-24T22:03:26.122+09:00' org_id='oracle' comp_id='rdbms'
+ msg_id='2' client_id='521' type='UNKNOWN'
+ group='READ MDX CURSOR DEPENDENCIES' level='16' host_id='DESKTOP-JPA1DKK'
+ host_addr='fe80::ed24:7bff:744d:9dc6%5' module='2' pid='9340'
+ user='70066' prob_key='30807' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>CLOUD
+ </txt>
+ <suppl_detail><![CDATA[FALSE]]></suppl_detail>
+</msg>
+<msg time='2022-08-24T22:03:26.123+09:00' org_id='oracle' comp_id='rdbms'
+ msg_id='3' client_id='521' type='UNKNOWN'
+ group='READ MDX CURSOR DEPENDENCIES' level='16' host_id='DESKTOP-JPA1DKK'
+ host_addr='fe80::ed24:7bff:744d:9dc6%5' module='2' pid='9340'
+ user='70066' prob_key='30807' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>ALLOC TOTAL
+ </txt>
+ <suppl_detail><![CDATA[350]]></suppl_detail>
+</msg>
+<msg time='2022-08-24T22:03:26.123+09:00' org_id='oracle' comp_id='rdbms'
+ msg_id='4' client_id='521' type='UNKNOWN'
+ group='READ MDX CURSOR DEPENDENCIES' level='16' host_id='DESKTOP-JPA1DKK'
+ host_addr='fe80::ed24:7bff:744d:9dc6%5' module='2' pid='9340'
+ user='70066' prob_key='30807' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>END
+ </txt>
+ <suppl_detail><![CDATA[]]></suppl_detail>
+</msg>
+<msg time='2022-08-27T13:02:51.238+09:00' org_id='oracle' comp_id='rdbms'
+ msg_id='1' client_id='256' type='UNKNOWN'
+ group='READ MDX CURSORS' level='16' host_id='DESKTOP-JPA1DKK'
+ host_addr='fe80::ed24:7bff:744d:9dc6%5' module='1' pid='4608'
+ user='160024' prob_key='57450' con_uid='3080459873'
+ con_id='3' con_name='XEPDB1'>
+ <txt>START
+ </txt>
+ <suppl_detail><![CDATA[]]></suppl_detail>
+</msg>
+<msg time='2022-08-27T13:02:51.239+09:00' org_id='oracle' comp_id='rdbms'
+ msg_id='2' client_id='256' type='UNKNOWN'
+ group='READ MDX CURSORS' level='16' host_id='DESKTOP-JPA1DKK'
+ host_addr='fe80::ed24:7bff:744d:9dc6%5' module='1' pid='4608'
+ user='160024' prob_key='57450' con_uid='3080459873'
+ con_id='3' con_name='XEPDB1'>
+ <txt>CLOUD
+ </txt>
+ <suppl_detail><![CDATA[FALSE]]></suppl_detail>
+</msg>
+<msg time='2022-08-27T13:02:51.240+09:00' org_id='oracle' comp_id='rdbms'
+ msg_id='3' client_id='256' type='UNKNOWN'
+ group='READ MDX CURSORS' level='16' host_id='DESKTOP-JPA1DKK'
+ host_addr='fe80::ed24:7bff:744d:9dc6%5' module='1' pid='4608'
+ user='160024' prob_key='57450' con_uid='3080459873'
+ con_id='3' con_name='XEPDB1'>
+ <txt>ALLOC TOTAL
+ </txt>
+ <suppl_detail><![CDATA[654]]></suppl_detail>
+</msg>
+<msg time='2022-08-27T13:02:51.242+09:00' org_id='oracle' comp_id='rdbms'
+ msg_id='4' client_id='256' type='UNKNOWN'
+ group='READ MDX CURSORS' level='16' host_id='DESKTOP-JPA1DKK'
+ host_addr='fe80::ed24:7bff:744d:9dc6%5' module='1' pid='4608'
+ user='160024' prob_key='57450' con_uid='3080459873'
+ con_id='3' con_name='XEPDB1'>
+ <txt>END
+ </txt>
+ <suppl_detail><![CDATA[]]></suppl_detail>
+</msg>
+<msg time='2022-08-27T13:02:51.270+09:00' org_id='oracle' comp_id='rdbms'
+ msg_id='1' client_id='256' type='UNKNOWN'
+ group='READ MDX CURSOR DEPENDENCIES' level='16' host_id='DESKTOP-JPA1DKK'
+ host_addr='fe80::ed24:7bff:744d:9dc6%5' module='2' pid='4608'
+ user='160024' prob_key='57450' con_uid='3080459873'
+ con_id='3' con_name='XEPDB1'>
+ <txt>START
+ </txt>
+ <suppl_detail><![CDATA[]]></suppl_detail>
+</msg>
+<msg time='2022-08-27T13:02:51.271+09:00' org_id='oracle' comp_id='rdbms'
+ msg_id='2' client_id='256' type='UNKNOWN'
+ group='READ MDX CURSOR DEPENDENCIES' level='16' host_id='DESKTOP-JPA1DKK'
+ host_addr='fe80::ed24:7bff:744d:9dc6%5' module='2' pid='4608'
+ user='160024' prob_key='57450' con_uid='3080459873'
+ con_id='3' con_name='XEPDB1'>
+ <txt>CLOUD
+ </txt>
+ <suppl_detail><![CDATA[FALSE]]></suppl_detail>
+</msg>
+<msg time='2022-08-27T13:02:51.272+09:00' org_id='oracle' comp_id='rdbms'
+ msg_id='3' client_id='256' type='UNKNOWN'
+ group='READ MDX CURSOR DEPENDENCIES' level='16' host_id='DESKTOP-JPA1DKK'
+ host_addr='fe80::ed24:7bff:744d:9dc6%5' module='2' pid='4608'
+ user='160024' prob_key='57450' con_uid='3080459873'
+ con_id='3' con_name='XEPDB1'>
+ <txt>ALLOC TOTAL
+ </txt>
+ <suppl_detail><![CDATA[350]]></suppl_detail>
+</msg>
+<msg time='2022-08-27T13:02:51.273+09:00' org_id='oracle' comp_id='rdbms'
+ msg_id='4' client_id='256' type='UNKNOWN'
+ group='READ MDX CURSOR DEPENDENCIES' level='16' host_id='DESKTOP-JPA1DKK'
+ host_addr='fe80::ed24:7bff:744d:9dc6%5' module='2' pid='4608'
+ user='160024' prob_key='57450' con_uid='3080459873'
+ con_id='3' con_name='XEPDB1'>
+ <txt>END
+ </txt>
+ <suppl_detail><![CDATA[]]></suppl_detail>
+</msg>

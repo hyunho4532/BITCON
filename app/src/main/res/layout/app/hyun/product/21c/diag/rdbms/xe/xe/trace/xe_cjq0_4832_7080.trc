@@ -1,0 +1,50 @@
+Trace file C:\APP\HYUN\PRODUCT\21C\diag\rdbms\xe\xe\trace\xe_cjq0_4832_7080.trc
+Oracle Database 21c Express Edition Release 21.0.0.0.0 - Production
+Version 21.3.0.0.0
+Build label:    RDBMS_21.3.0.0.0_WINDOWS.X64_210927
+Windows NT Version V10.0  OS Build 19044
+ORACLE_HOME = C:\app\hyun\product\21c\dbhomeXE
+Node name           : DESKTOP-JPA1DKK
+CPU                 : 6 - type 86646 physical cores
+Process Affinity    : 0x0000000000000000
+Memory (Avail/Total): Ph:10221M/16317M, Ph+PgF:15320M/28093M 
+Instance name: xe
+Redo thread mounted by this instance: 1
+Oracle process number: 50
+Windows thread id: 4832, thread id: 7080, image: ORACLE.EXE (CJQ0)
+
+
+*** 2023-02-25T22:32:59.840159+09:00 (XEPDB1(3))
+*** SESSION ID:(258.39335) 2023-02-25T22:32:59.840159+09:00
+*** CLIENT ID:() 2023-02-25T22:32:59.840159+09:00
+*** SERVICE NAME:(SYS$BACKGROUND) 2023-02-25T22:32:59.840159+09:00
+*** MODULE NAME:() 2023-02-25T22:32:59.840159+09:00
+*** ACTION NAME:() 2023-02-25T22:32:59.841156+09:00
+*** CLIENT DRIVER:(SERVER) 2023-02-25T22:32:59.841156+09:00
+*** CONTAINER ID:(3) 2023-02-25T22:32:59.841156+09:00
+*** CONTAINER ID:(3) 2023-02-25T22:32:59.841156+09:00
+ 
+Not setting DEFAULT_MAINTENANCE_PLAN from maintenance scheduler window
+because a resource plan is already enabled
+Not setting DEFAULT_MAINTENANCE_PLAN from maintenance scheduler window
+
+*** 2023-02-26T08:24:56.392332+09:00 (CDB$ROOT(1))
+because a resource plan is already enabled
+Not setting DEFAULT_MAINTENANCE_PLAN from maintenance scheduler window
+
+*** 2023-02-26T22:00:00.012063+09:00 (XEPDB1(3))
+because a resource plan is already enabled
+MMNL absent for 70860 secs; Foregrounds taking over
+
+*** 2023-03-01T15:23:40.736391+09:00 (CDB$ROOT(1))
+ktsmgtur: TUR was not tuned for 70860 secs
+ktsmg_advance_slot(): MMNL advances slot after 71247 seconds
+ktut_advance_slot(): MMNL advances slot after 447 seconds
+MMNL absent for 70860 secs; Foregrounds taking over
+
+*** 2023-03-01T15:23:40.736391+09:00 (XEPDB1(3))
+ktsmgtur: TUR was not tuned for 70860 secs
+ktsmg_advance_slot(): MMNL advances slot after 71230 seconds
+ktut_advance_slot(): MMNL advances slot after 430 seconds
+Not setting DEFAULT_MAINTENANCE_PLAN from maintenance scheduler window
+because a resource plan is already enabled

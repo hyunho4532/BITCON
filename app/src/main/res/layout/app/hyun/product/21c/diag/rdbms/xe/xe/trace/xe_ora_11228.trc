@@ -1,0 +1,116 @@
+Trace file C:\APP\HYUN\PRODUCT\21C\diag\rdbms\xe\xe\trace\xe_ora_11228.trc
+Oracle Database 21c Express Edition Release 21.0.0.0.0 - Production
+Version 21.3.0.0.0
+Build label:    RDBMS_21.3.0.0.0_WINDOWS.X64_210927
+Windows NT Version V10.0  OS Build 19044
+ORACLE_HOME = C:\app\hyun\product\21c\dbhomeXE
+Node name           : DESKTOP-JPA1DKK
+CPU                 : 6 - type 86646 physical cores
+Process Affinity    : 0x0000000000000000
+Memory (Avail/Total): Ph:12321M/16317M, Ph+PgF:18444M/26045M 
+Instance name: xe
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 0
+Windows thread id: 11228, image: 
+
+
+*** 2023-03-09T21:06:05.354935+09:00 (CDB$ROOT(1))
+2023-03-09 21:06:05.346 : fsd_notify_cb: FsDirect not implemented
+*** SESSION ID:(374.4003) 2023-03-09T21:06:05.714249+09:00
+*** SERVICE NAME:() 2023-03-09T21:06:05.714249+09:00
+*** MODULE NAME:(oradim.exe) 2023-03-09T21:06:05.714249+09:00
+*** ACTION NAME:() 2023-03-09T21:06:05.714249+09:00
+*** CLIENT DRIVER:(OCI) 2023-03-09T21:06:05.714249+09:00
+*** CONTAINER ID:(1) 2023-03-09T21:06:05.714249+09:00
+*** CLIENT IP:(N/A) 2023-03-09T21:06:05.714249+09:00
+ 
+2023-03-09 21:06:05.714 : [ default][ default] ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2023-03-09 21:06:05.714 : [ default][ default] ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+2023-03-09 21:06:05.854 : [ default][ default] ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2023-03-09 21:06:05.854 : [ default][ default] ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+2023-03-09 21:06:05.854 : [ default][ default] ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2023-03-09 21:06:05.854 : [ default][ default] ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+2023-03-09 21:06:05.854 : [ default][ default] ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2023-03-09 21:06:05.854 : [ default][ default] ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+
+*** 2023-03-09T21:06:06.698366+09:00 (CDB$ROOT(1))
+2023-03-09 21:06:06.698 : [ default][ default] ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2023-03-09 21:06:06.698 : [ default][ default] ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+2023-03-09 21:06:06.838 : [ default][ default] ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2023-03-09 21:06:06.838 : [ default][ default] ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+Thread 1 checkpoint: logseq 69, block 2, scn 0x0000000002e54202
+kctdrsrt: on-disk rba 69.132245.0
+  cache-low rba: logseq 69, block 132191
+    on-disk rba: logseq 69, block 132245, scn 0x0000000002e60458
+Synchronized sync destination connectivity mask for thread 1 is 0x0
+Using largest hash table of 262144 entries (2Mb), htbl_size = 2097232, max_alloc = 2147467264
+
+*** 2023-03-09T21:06:06.979550+09:00 (CDB$ROOT(1))
+Started writing zeroblks thread 1 seq 69 blocks 132245-132252
+
+*** 2023-03-09T21:06:06.979550+09:00 (CDB$ROOT(1))
+Completed writing zeroblks thread 1 seq 69
+==== Redo read statistics for thread 1 ====
+Total physical reads (from disk and memory): 4096Kb
+-- Redo read_disk statistics --
+Read rate (ASYNC): 27Kb in 0.11s => 0.24 Mb/sec
+Longest record: 0Kb, moves: 0/142 (0%)
+Change moves: 12/91 (13%), moved: 0Mb
+Longest LWN: 4Kb, moves: 0/15 (0%), moved: 0Mb
+Last redo scn: 0x0000000002e60455 (48628821)
+----------------------------------------------
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 262144
+Longest hash chain = 1
+Average hash chain = 19/19 = 1.0
+Max compares per lookup = 1
+Avg compares per lookup = 71/232 = 0.3
+----------------------------------------------
+
+*** 2023-03-09T21:06:06.979550+09:00 (CDB$ROOT(1))
+KCRA: start recovery claims for 19 data blocks
+
+*** 2023-03-09T21:06:06.995197+09:00 (CDB$ROOT(1))
+KCRA: blocks processed = 19/19, claimed = 19, eliminated = 0
+
+*** 2023-03-09T21:06:06.995197+09:00 (CDB$ROOT(1))
+Recovery of Online Redo Log: Thread 1 Group 3 Seq 69 Reading mem 0
+
+*** 2023-03-09T21:06:07.026413+09:00 (CDB$ROOT(1))
+Completed redo application of 0.01MB
+
+*** 2023-03-09T21:06:07.042060+09:00 (CDB$ROOT(1))
+Completed recovery checkpoint
+2023-03-09 21:06:07.042 : [ default][ default] ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2023-03-09 21:06:07.042 : [ default][ default] ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 262144
+Longest hash chain = 1
+Average hash chain = 19/19 = 1.0
+Max compares per lookup = 1
+Avg compares per lookup = 84/90 = 0.9
+----------------------------------------------
+Recovery sets nab of thread 1 seq 69 to 132245 with 8 zeroblks
+2023-03-09 21:06:07.463 : [ default][ default] ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2023-03-09 21:06:07.463 : [ default][ default] ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+
+*** 2023-03-09T21:06:09.213419+09:00 (CDB$ROOT(1))
+Information: Dictionary Credential Encryption is NOT enabledk2vini(): Renabled RECO functionality
+joxcsys_required_dirobj_exists: directory object exists with required path C:\APP\HYUN\PRODUCT\21C\DBHOMEXE\JAVAVM\ADMIN\, pid 4520 cid 1
+2023-03-09 21:06:09.744 : [ default][ default] ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2023-03-09 21:06:09.744 : [ default][ default] ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+2023-03-09 21:06:09.744 : [ default][ default] ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2023-03-09 21:06:09.744 : [ default][ default] ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+2023-03-09 21:06:09.853 : [ default][ default] ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2023-03-09 21:06:09.853 : [ default][ default] ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+2023-03-09 21:06:09.853 : [ default][ default] ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2023-03-09 21:06:09.853 : [ default][ default] ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+2023-03-09 21:06:09.853 : [ default][ default] ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2023-03-09 21:06:09.853 : [ default][ default] ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+
+*** 2023-03-09T21:06:12.165819+09:00 (XEPDB1(3))
+ksws_start_local_svc:rc=0
+joxcsys_required_dirobj_exists: directory object exists with required path C:\APP\HYUN\PRODUCT\21C\DBHOMEXE\JAVAVM\ADMIN\, pid 4520 cid 3
+
+*** 2023-03-09T21:06:12.665701+09:00 (CDB$ROOT(1))
+ksmddg: DGA destroyed

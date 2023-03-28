@@ -1,0 +1,177 @@
+Trace file C:\APP\HYUN\PRODUCT\21C\diag\rdbms\xe\xe\trace\xe_cjq0_4896_5280.trc
+Oracle Database 21c Express Edition Release 21.0.0.0.0 - Production
+Version 21.3.0.0.0
+Build label:    RDBMS_21.3.0.0.0_WINDOWS.X64_210927
+Windows NT Version V10.0  OS Build 19044
+ORACLE_HOME = C:\app\hyun\product\21c\dbhomeXE
+Node name           : DESKTOP-JPA1DKK
+CPU                 : 6 - type 86646 physical cores
+Process Affinity    : 0x0000000000000000
+Memory (Avail/Total): Ph:8275M/16317M, Ph+PgF:7976M/25533M 
+Instance name: xe
+Redo thread mounted by this instance: 1
+Oracle process number: 52
+Windows thread id: 4896, thread id: 5280, image: ORACLE.EXE (CJQ0)
+
+
+*** 2023-03-19T21:00:00.203296+09:00 (XEPDB1(3))
+*** SESSION ID:(506.46653) 2023-03-19T21:00:00.203296+09:00
+*** CLIENT ID:() 2023-03-19T21:00:00.203296+09:00
+*** SERVICE NAME:(SYS$BACKGROUND) 2023-03-19T21:00:00.203296+09:00
+*** MODULE NAME:() 2023-03-19T21:00:00.203296+09:00
+*** ACTION NAME:() 2023-03-19T21:00:00.203296+09:00
+*** CLIENT DRIVER:(SERVER) 2023-03-19T21:00:00.203296+09:00
+*** CONTAINER ID:(3) 2023-03-19T21:00:00.203296+09:00
+*** CONTAINER ID:(3) 2023-03-19T21:00:00.203296+09:00
+ 
+Not setting DEFAULT_MAINTENANCE_PLAN from maintenance scheduler window
+because a resource plan is already enabled
+Not setting DEFAULT_MAINTENANCE_PLAN from maintenance scheduler window
+
+*** 2023-03-20T22:00:00.209148+09:00 (CDB$ROOT(1))
+because a resource plan is already enabled
+Not setting DEFAULT_MAINTENANCE_PLAN from maintenance scheduler window
+
+*** 2023-03-21T22:00:00.109668+09:00 (CDB$ROOT(1))
+because a resource plan is already enabled
+MMNL absent for 71607 secs; Foregrounds taking over
+
+*** 2023-03-22T18:48:42.817226+09:00 (CDB$ROOT(1))
+ktsmgtur: TUR was not tuned for 71607 secs
+ktsmg_advance_slot(): MMNL advances slot after 71875 seconds
+ktut_advance_slot(): MMNL advances slot after 475 seconds
+MMNL absent for 71607 secs; Foregrounds taking over
+
+*** 2023-03-22T18:48:42.819234+09:00 (XEPDB1(3))
+ktsmgtur: TUR was not tuned for 71607 secs
+ktsmg_advance_slot(): MMNL advances slot after 71854 seconds
+ktut_advance_slot(): MMNL advances slot after 454 seconds
+Not setting DEFAULT_MAINTENANCE_PLAN from maintenance scheduler window
+
+*** 2023-03-22T22:00:00.521564+09:00 (CDB$ROOT(1))
+because a resource plan is already enabled
+Not setting DEFAULT_MAINTENANCE_PLAN from maintenance scheduler window
+
+*** 2023-03-23T22:00:00.075002+09:00 (CDB$ROOT(1))
+because a resource plan is already enabled
+Not setting DEFAULT_MAINTENANCE_PLAN from maintenance scheduler window
+
+*** 2023-03-24T22:00:00.612833+09:00 (CDB$ROOT(1))
+because a resource plan is already enabled
+MMNL absent for 1520 secs; Foregrounds taking over
+
+*** 2023-03-24T23:21:15.800366+09:00 (CDB$ROOT(1))
+ktsmgtur: TUR was not tuned for 1520 secs
+ktsmg_advance_slot(): MMNL advances slot after 1828 seconds
+ktut_advance_slot(): MMNL advances slot after 28 seconds
+
+*** 2023-03-24T23:21:15.801367+09:00 (XEPDB1(3))
+MMNL absent for 1520 secs; Foregrounds taking over
+ktsmgtur: TUR was not tuned for 1520 secs
+ktsmg_advance_slot(): MMNL advances slot after 1807 seconds
+ktut_advance_slot(): MMNL advances slot after 7 seconds
+
+*** 2023-03-25T20:19:45.750529+09:00 (CDB$ROOT(1))
+ktsmgtur: TUR was not tuned for 75510 secs
+ktsmg_advance_slot(): MMNL advances slot after 75538 seconds
+ktut_advance_slot(): MMNL advances slot after 538 seconds
+ktsmgtur: TUR was not tuned for 75510 secs
+
+*** 2023-03-25T20:19:45.771529+09:00 (XEPDB1(3))
+ktsmg_advance_slot(): MMNL advances slot after 75517 seconds
+ktut_advance_slot(): MMNL advances slot after 517 seconds
+
+*** 2023-03-25T20:19:46.638530+09:00 (CDB$ROOT(1))
+Not setting DEFAULT_MAINTENANCE_PLAN from maintenance scheduler window
+because a resource plan is already enabled
+Not setting DEFAULT_MAINTENANCE_PLAN from maintenance scheduler window
+
+*** 2023-03-25T21:00:00.052178+09:00 (XEPDB1(3))
+because a resource plan is already enabled
+
+*** 2023-03-25T21:55:43.069704+09:00 (CDB$ROOT(1))
+MMNL absent for 3231 secs; Foregrounds taking over
+ktsmgtur: TUR was not tuned for 3231 secs
+ktsmg_advance_slot(): MMNL advances slot after 3296 seconds
+ktut_advance_slot(): MMNL advances slot after 296 seconds
+MMNL absent for 3231 secs; Foregrounds taking over
+
+*** 2023-03-25T21:55:43.085701+09:00 (XEPDB1(3))
+ktut_advance_slot(): MMNL advances slot after 3275 seconds
+MMNL absent for 43326 secs; Foregrounds taking over
+
+*** 2023-03-26T10:54:56.857402+09:00 (XEPDB1(3))
+MMNL absent for 43326 secs; Foregrounds taking over
+ktsmgtur: TUR was not tuned for 43326 secs
+ktsmg_advance_slot(): MMNL advances slot after 43428 seconds
+ktut_advance_slot(): MMNL advances slot after 228 seconds
+
+*** 2023-03-26T10:54:56.858403+09:00 (CDB$ROOT(1))
+ktsmgtur: TUR was not tuned for 43326 secs
+ktsmg_advance_slot(): MMNL advances slot after 43449 seconds
+ktut_advance_slot(): MMNL advances slot after 249 seconds
+
+*** 2023-03-26T10:54:58.592019+09:00 (CDB$ROOT(1))
+Not setting DEFAULT_MAINTENANCE_PLAN from maintenance scheduler window
+because a resource plan is already enabled
+MMNL absent for 3869 secs; Foregrounds taking over
+ktsmgtur: TUR was not tuned for 3869 secs
+
+*** 2023-03-26T13:10:34.901192+09:00 (CDB$ROOT(1))
+ktsmg_advance_slot(): MMNL advances slot after 4187 seconds
+ktut_advance_slot(): MMNL advances slot after 587 seconds
+
+*** 2023-03-26T13:10:34.908193+09:00 (XEPDB1(3))
+MMNL absent for 3869 secs; Foregrounds taking over
+ktsmgtur: TUR was not tuned for 3869 secs
+ktsmg_advance_slot(): MMNL advances slot after 4166 seconds
+ktut_advance_slot(): MMNL advances slot after 566 seconds
+MMNL absent for 4963 secs; Foregrounds taking over
+
+*** 2023-03-26T19:22:05.773747+09:00 (CDB$ROOT(1))
+ktsmgtur: TUR was not tuned for 4963 secs
+ktsmg_advance_slot(): MMNL advances slot after 5478 seconds
+ktut_advance_slot(): MMNL advances slot after 78 seconds
+MMNL absent for 4963 secs; Foregrounds taking over
+
+*** 2023-03-26T19:22:05.774749+09:00 (XEPDB1(3))
+ktsmgtur: TUR was not tuned for 4963 secs
+ktsmg_advance_slot(): MMNL advances slot after 5457 seconds
+ktut_advance_slot(): MMNL advances slot after 57 seconds
+MMNL absent for 1351 secs; Foregrounds taking over
+
+*** 2023-03-26T20:57:44.574476+09:00 (XEPDB1(3))
+ktsmgtur: TUR was not tuned for 1351 secs
+ktsmg_advance_slot(): MMNL advances slot after 1595 seconds
+ktut_advance_slot(): MMNL advances slot after 395 seconds
+
+*** 2023-03-26T21:00:00.204317+09:00 (XEPDB1(3))
+Not setting DEFAULT_MAINTENANCE_PLAN from maintenance scheduler window
+because a resource plan is already enabled
+MMNL absent for 86421 secs; Foregrounds taking over
+
+*** 2023-03-27T22:08:43.865541+09:00 (CDB$ROOT(1))
+ktsmgtur: TUR was not tuned for 86421 secs
+ktsmg_advance_slot(): MMNL advances slot after 86876 seconds
+ktut_advance_slot(): MMNL advances slot after 476 seconds
+MMNL absent for 86421 secs; Foregrounds taking over
+
+*** 2023-03-27T22:08:44.011541+09:00 (XEPDB1(3))
+ktsmgtur: TUR was not tuned for 86421 secs
+ktsmg_advance_slot(): MMNL advances slot after 86855 seconds
+ktut_advance_slot(): MMNL advances slot after 455 seconds
+
+*** 2023-03-27T22:08:47.071294+09:00 (CDB$ROOT(1))
+Not setting DEFAULT_MAINTENANCE_PLAN from maintenance scheduler window
+because a resource plan is already enabled
+ktsmgtur: TUR was not tuned for 69964 secs
+
+*** 2023-03-28T18:37:57.912732+09:00 (CDB$ROOT(1))
+ktsmg_advance_slot(): MMNL advances slot after 70030 seconds
+ktut_advance_slot(): MMNL advances slot after 430 seconds
+
+*** 2023-03-28T18:37:57.952730+09:00 (XEPDB1(3))
+MMNL absent for 69964 secs; Foregrounds taking over
+ktsmgtur: TUR was not tuned for 69964 secs
+ktsmg_advance_slot(): MMNL advances slot after 70009 seconds
+ktut_advance_slot(): MMNL advances slot after 409 seconds

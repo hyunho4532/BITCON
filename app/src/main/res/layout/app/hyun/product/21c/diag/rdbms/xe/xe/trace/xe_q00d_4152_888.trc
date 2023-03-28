@@ -1,0 +1,27 @@
+Trace file C:\APP\HYUN\PRODUCT\21C\diag\rdbms\xe\xe\trace\xe_q00d_4152_888.trc
+Oracle Database 21c Express Edition Release 21.0.0.0.0 - Production
+Version 21.3.0.0.0
+Build label:    RDBMS_21.3.0.0.0_WINDOWS.X64_210927
+Windows NT Version V10.0  OS Build 19044
+ORACLE_HOME = C:\app\hyun\product\21c\dbhomeXE
+Node name           : DESKTOP-JPA1DKK
+CPU                 : 6 - type 86646 physical cores
+Process Affinity    : 0x0000000000000000
+Memory (Avail/Total): Ph:14178M/16317M, Ph+PgF:17830M/25533M 
+Instance name: xe
+Redo thread mounted by this instance: 1
+Oracle process number: 67
+Windows thread id: 4152, thread id: 888, image: ORACLE.EXE (Q00D)
+
+
+*** 2023-03-19T16:28:30.322189+09:00 (XEPDB1(3))
+*** SESSION ID:(136.26033) 2023-03-19T16:28:30.322189+09:00
+*** CLIENT ID:() 2023-03-19T16:28:30.322189+09:00
+*** SERVICE NAME:(SYS$BACKGROUND) 2023-03-19T16:28:30.322189+09:00
+*** MODULE NAME:(Streams) 2023-03-19T16:28:30.322189+09:00
+*** ACTION NAME:(QMON Slave) 2023-03-19T16:28:30.322189+09:00
+*** CLIENT DRIVER:(SERVER) 2023-03-19T16:28:30.322189+09:00
+*** CONTAINER ID:(3) 2023-03-19T16:28:30.322189+09:00
+*** CONTAINER ID:(3) 2023-03-19T16:28:30.322189+09:00
+ 
+B9642B18C0A5420E8F27A4CC4699635E

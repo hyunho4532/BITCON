@@ -1,0 +1,2383 @@
+Trace file C:\APP\HYUN\PRODUCT\21C\diag\rdbms\xe\xe\trace\xe_dbrm_4896_6488.trc
+Oracle Database 21c Express Edition Release 21.0.0.0.0 - Production
+Version 21.3.0.0.0
+Build label:    RDBMS_21.3.0.0.0_WINDOWS.X64_210927
+Windows NT Version V10.0  OS Build 19044
+ORACLE_HOME = C:\app\hyun\product\21c\dbhomeXE
+Node name           : DESKTOP-JPA1DKK
+CPU                 : 6 - type 86646 physical cores
+Process Affinity    : 0x0000000000000000
+Memory (Avail/Total): Ph:12770M/16317M, Ph+PgF:18452M/25533M 
+Instance name: xe
+Redo thread mounted by this instance: 1
+Oracle process number: 14
+Windows thread id: 4896, thread id: 6488, image: ORACLE.EXE (DBRM)
+
+
+*** 2023-03-19T16:41:03.915988+09:00 (CDB$ROOT(1))
+*** SESSION ID:(252.16610) 2023-03-19T16:41:03.915988+09:00
+*** CLIENT ID:() 2023-03-19T16:41:03.915988+09:00
+*** SERVICE NAME:() 2023-03-19T16:41:03.915988+09:00
+*** MODULE NAME:() 2023-03-19T16:41:03.915988+09:00
+*** ACTION NAME:() 2023-03-19T16:41:03.915988+09:00
+*** CLIENT DRIVER:(SERVER) 2023-03-19T16:41:03.915988+09:00
+*** CONTAINER ID:(1) 2023-03-19T16:41:03.915988+09:00
+*** CONTAINER ID:(1) 2023-03-19T16:41:03.915988+09:00
+ 
+PGA LIMIT: using pga_aggregate_limit of 2048 MB
+
+*** 2023-03-19T16:41:06.073891+09:00 (CDB$ROOT(1))
+kgsksysstop: blocking mode (2) timestamp: 37903378
+kgsksysstop: successful; Total stall time = 0 ms.
+kgskupdhighthreshdelta(): high_threshold_delta=2
+kgskupdbasethresh(): [0] base=[2-4], dyn=[3-5]
+kgsksysresume: successful
+START RESOURCE MANAGER PLAN/CONSUMER GROUP DUMP
+CDB DEFAULT_CDB_PLAN cpu_count=6 cpu_min=6.00
+  PDB #1 ORA$AUTOTASK_PLAN dirtype=AUTO ulim=9000 shrs=1
+  PDB #1 ORA$ROOT_PLAN shrs=1
+END RESOURCE MANAGER PLAN/CONSUMER GROUP DUMP
+
+*** 2023-03-19T16:41:08.823889+09:00 (CDB$ROOT(1))
+kgsksysstop: blocking mode (2) timestamp: 40653783
+kgsksysstop: successful; Total stall time = 0 ms.
+kgskupdhighthreshdelta(): high_threshold_delta=2
+kgskupdbasethresh(): [0] base=[2-4], dyn=[3-5]
+kgsksysresume: successful
+START RESOURCE MANAGER PLAN/CONSUMER GROUP DUMP
+CDB PE: PDB #2 PDB$SEED dirtype=DEF shrs=6
+PDB #2 PDB$SEED/DEFAULT_PLAN cpu_min=6.00
+  CG   ORA$AUTOTASK MGMT_P1=1 MAX_UTILIZATION_LIMIT=90 
+        SHARES=1 
+  CG   OTHER_GROUPS MGMT_P1=9 SHARES=9 
+  CG   SYS_GROUP MGMT_P1=90 SHARES=90 
+END RESOURCE MANAGER PLAN/CONSUMER GROUP DUMP
+
+*** 2023-03-19T16:41:10.230114+09:00 (CDB$ROOT(1))
+kgsksysstop: blocking mode (2) timestamp: 42064535
+kgsksysstop: successful; Total stall time = 0 ms.
+kgskupdhighthreshdelta(): high_threshold_delta=2
+kgskupdbasethresh(): [0] base=[2-4], dyn=[3-5]
+kgsksysresume: successful
+START RESOURCE MANAGER PLAN/CONSUMER GROUP DUMP
+CDB PE: PDB #3 XEPDB1 dirtype=DEF shrs=6
+PDB #3 XEPDB1/DEFAULT_PLAN cpu_min=6.00
+  CG   ORA$AUTOTASK MGMT_P1=1 MAX_UTILIZATION_LIMIT=90 
+        SHARES=1 
+  CG   OTHER_GROUPS MGMT_P1=9 SHARES=9 
+  CG   SYS_GROUP MGMT_P1=90 SHARES=90 
+END RESOURCE MANAGER PLAN/CONSUMER GROUP DUMP
+
+*** 2023-03-19T16:43:10.273064+09:00 (CDB$ROOT(1))
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+s:  33  4294967295           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:     8257      183       70      2      0      0      0
+
+*** 2023-03-19T16:48:11.212856+09:00 (CDB$ROOT(1))
+s:   9          21           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     3005       37       26      1      0      0      0
+
+*** 2023-03-19T16:53:09.196417+09:00 (CDB$ROOT(1))
+s:   8          15           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2032        5        8      0      0      0      0
+s:  18          14           0       0.00      0.00           0
+
+*** 2023-03-19T16:58:10.214682+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2644        8       14      0      0      0      0
+
+*** 2023-03-19T17:03:11.184832+09:00 (CDB$ROOT(1))
+s:   9          31           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     3217       37       12      0      1      0      0
+
+*** 2023-03-19T17:08:09.022496+09:00 (CDB$ROOT(1))
+s:   9           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2392        0        2      0      0      0      0
+
+*** 2023-03-19T17:10:39.477821+09:00 (CDB$ROOT(1))
+kgsksysstop: successful; Total stall time = 0 ms.
+s:   9          45           0       0.05      0.00           0
+
+*** 2023-03-19T17:13:09.970781+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2485        7        4      0      0      0      0
+
+*** 2023-03-19T17:18:10.875033+09:00 (CDB$ROOT(1))
+s:  17          51           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2793       18       12      1      0      0      0
+
+*** 2023-03-19T17:23:11.772481+09:00 (CDB$ROOT(1))
+s:   7          15           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2408        2        9      0      0      0      0
+s:  14           0           0       0.00      0.00           0
+
+*** 2023-03-19T17:28:09.610545+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2666        6        8      0      0      0      0
+
+*** 2023-03-19T17:33:10.545801+09:00 (CDB$ROOT(1))
+s:   7           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2805       17       16      1      0      0      0
+
+*** 2023-03-19T17:38:11.521450+09:00 (CDB$ROOT(1))
+s:   4           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2431        1        9      0      0      0      0
+
+*** 2023-03-19T17:40:45.006890+09:00 (CDB$ROOT(1))
+kgsksysstop: successful; Total stall time = 0 ms.
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+
+*** 2023-03-19T17:43:09.435247+09:00 (CDB$ROOT(1))
+s:  13          45           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:     2562        5       13      0      0      0      0
+
+*** 2023-03-19T17:48:10.339016+09:00 (CDB$ROOT(1))
+s:  25          12           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2744       17       13      1      0      0      0
+
+*** 2023-03-19T17:53:11.311033+09:00 (CDB$ROOT(1))
+s:  12          19           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2479        0        5      0      0      0      0
+s:  16           0           0       0.00      0.00           0
+
+*** 2023-03-19T17:58:09.234404+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2442        1        4      0      0      0      0
+
+*** 2023-03-19T18:03:10.058479+09:00 (CDB$ROOT(1))
+s:  11          45           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     3444       66       36      0      1      0      0
+
+*** 2023-03-19T18:08:10.883783+09:00 (CDB$ROOT(1))
+s:  16          15           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2418        0        3      0      0      0      0
+
+*** 2023-03-19T18:10:50.404008+09:00 (CDB$ROOT(1))
+kgsksysstop: successful; Total stall time = 0 ms.
+s:   4          58           0       0.00      0.00           0
+
+*** 2023-03-19T18:13:11.795103+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2521        7       10      0      0      0      0
+
+*** 2023-03-19T18:18:09.766874+09:00 (CDB$ROOT(1))
+s:   8          31           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2766       19       13      1      0      0      0
+
+*** 2023-03-19T18:23:10.698462+09:00 (CDB$ROOT(1))
+s:   8           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2430        0       10      0      0      0      0
+s:   4          39           1       0.00      0.00           0
+
+*** 2023-03-19T18:28:11.647530+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2486        2       11      0      0      0      0
+
+*** 2023-03-19T18:33:09.637105+09:00 (CDB$ROOT(1))
+s:   4          15           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2810       21       12      1      0      0      0
+
+*** 2023-03-19T18:38:10.588615+09:00 (CDB$ROOT(1))
+s:   5           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2383        1        6      0      0      0      0
+
+*** 2023-03-19T18:40:56.000527+09:00 (CDB$ROOT(1))
+kgsksysstop: successful; Total stall time = 0 ms.
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+
+*** 2023-03-19T18:43:11.422337+09:00 (CDB$ROOT(1))
+s:  19          30           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:     2591        4       13      0      0      0      0
+
+*** 2023-03-19T18:48:09.303753+09:00 (CDB$ROOT(1))
+s:  21           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2762       18        8      1      0      0      0
+
+*** 2023-03-19T18:53:10.173411+09:00 (CDB$ROOT(1))
+s:  27           8           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2520        1        2      0      0      0      0
+s:  27          46           0       0.00      0.00           0
+
+*** 2023-03-19T18:58:10.984887+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2466        1        5      0      0      0      0
+
+*** 2023-03-19T19:03:11.971549+09:00 (CDB$ROOT(1))
+s:   5           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2853       17       15      1      0      0      0
+
+*** 2023-03-19T19:08:09.880976+09:00 (CDB$ROOT(1))
+s:   8          30           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2410        0        8      0      0      0      0
+
+*** 2023-03-19T19:11:01.476844+09:00 (CDB$ROOT(1))
+kgsksysstop: successful; Total stall time = 0 ms.
+s:  17          35           0       0.00      0.00           0
+
+*** 2023-03-19T19:13:10.864360+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2500        2        6      0      0      0      0
+
+*** 2023-03-19T19:18:08.777531+09:00 (CDB$ROOT(1))
+s:  27          22           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2715       20       18      1      0      0      0
+
+*** 2023-03-19T19:23:09.778899+09:00 (CDB$ROOT(1))
+s:   8          10           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2413        4       16      0      0      0      0
+s:   9           0           0       0.00      0.00           0
+
+*** 2023-03-19T19:28:10.784986+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2483        3       12      1      0      0      0
+
+*** 2023-03-19T19:33:08.668510+09:00 (CDB$ROOT(1))
+s:   8          39           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2791       19       18      1      0      0      0
+
+*** 2023-03-19T19:38:09.715807+09:00 (CDB$ROOT(1))
+s:   7          14           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2401        0       17      0      0      0      0
+
+*** 2023-03-19T19:41:07.246135+09:00 (CDB$ROOT(1))
+kgsksysstop: successful; Total stall time = 0 ms.
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+
+*** 2023-03-19T19:43:10.638460+09:00 (CDB$ROOT(1))
+s:  19           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:     2535        5       11      1      0      0      0
+
+*** 2023-03-19T19:48:08.615738+09:00 (CDB$ROOT(1))
+s:   9          64           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2733       15       18      1      0      0      0
+
+*** 2023-03-19T19:53:09.582324+09:00 (CDB$ROOT(1))
+s:   9          68           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2468        1       15      0      0      0      0
+s:  10          29           0       0.00      0.00           0
+
+*** 2023-03-19T19:58:10.484587+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2454        3       15      0      0      0      0
+
+*** 2023-03-19T20:03:08.429312+09:00 (CDB$ROOT(1))
+s:   8         512           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2762       19       11      0      1      0      0
+
+*** 2023-03-19T20:08:09.310232+09:00 (CDB$ROOT(1))
+s:   8         106           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2446        1       19      0      0      0      0
+
+*** 2023-03-19T20:11:12.851357+09:00 (CDB$ROOT(1))
+kgsksysstop: successful; Total stall time = 0 ms.
+s:   9          43  4294967295       0.00      0.00           0
+
+*** 2023-03-19T20:13:10.197408+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2508        1       18      0      0      0      0
+
+*** 2023-03-19T20:18:11.155892+09:00 (CDB$ROOT(1))
+s:   5         522           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2766       19       13      1      0      0      0
+
+*** 2023-03-19T20:23:08.983491+09:00 (CDB$ROOT(1))
+s:   4  4294967295           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2398        1       13      0      0      0      0
+s:   3          24           0       0.00      0.00           0
+
+*** 2023-03-19T20:28:09.889858+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2490        3       15      2      0      0      0
+
+*** 2023-03-19T20:33:10.781977+09:00 (CDB$ROOT(1))
+s:   2         487           0       0.05      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2788       16       14      1      0      0      0
+
+*** 2023-03-19T20:38:11.815997+09:00 (CDB$ROOT(1))
+s:   2          42           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2397        0       13      0      0      0      0
+
+*** 2023-03-19T20:41:18.397236+09:00 (CDB$ROOT(1))
+kgsksysstop: successful; Total stall time = 0 ms.
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+
+*** 2023-03-19T20:43:09.733233+09:00 (CDB$ROOT(1))
+s:   3         107           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:     2547        3       25      1      0      0      0
+
+*** 2023-03-19T20:53:34.552595+09:00 (CDB$ROOT(1))
+s:   5          14           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2897       19       20      1      1      0      0
+s:  20          45           0       0.00      0.00           0
+
+*** 2023-03-19T20:58:35.529577+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2518        4       10      0      0      0      0
+
+*** 2023-03-19T21:03:36.530891+09:00 (CDB$ROOT(1))
+s:  15          36           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     9146      319      293     48     16      3      0
+
+*** 2023-03-19T21:04:33.680632+09:00 (CDB$ROOT(1))
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+s:   7           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:      458        0        0      0      0      0      0
+
+*** 2023-03-19T21:09:34.712211+09:00 (CDB$ROOT(1))
+s:   9           0  4294967295       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2815       36       17      2      1      0      0
+
+*** 2023-03-19T21:11:35.116090+09:00 (CDB$ROOT(1))
+kgsksysstop: successful; Total stall time = 0 ms.
+s:  10           0           0       0.00      0.00           0
+
+*** 2023-03-19T21:14:35.644872+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2507        4       15      0      0      0      0
+
+*** 2023-03-19T21:19:33.620523+09:00 (CDB$ROOT(1))
+s:   8          15  4294967295       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2380        0        7      0      0      0      0
+
+*** 2023-03-19T21:24:34.552413+09:00 (CDB$ROOT(1))
+s:  15           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2808       34       22      3      0      0      0
+s:  16          84           0       0.00      0.00           0
+
+*** 2023-03-19T21:29:35.528190+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2457        2       12      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-20T18:53:10.323070+09:00 (CDB$ROOT(1))
+s:  18          16           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     4443      119       71      6      1      0      0
+
+*** 2023-03-20T18:58:11.280157+09:00 (CDB$ROOT(1))
+s:  19           7           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2392        2        6      0      0      0      0
+
+*** 2023-03-20T19:03:09.242598+09:00 (CDB$ROOT(1))
+s:   9  4294967295           0       0.05      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2430        1        7      0      0      0      0
+s:  12  4294967295  4294967295       0.00      0.00           0
+
+*** 2023-03-20T19:08:10.193617+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2893       39       20      0      1      0      0
+
+*** 2023-03-20T19:13:11.018520+09:00 (CDB$ROOT(1))
+s:  27          41  4294967295       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2436        0       11      0      0      0      0
+
+*** 2023-03-20T19:18:08.935743+09:00 (CDB$ROOT(1))
+s:  41  4294967295           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2351        1        6      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-20T19:23:09.723031+09:00 (CDB$ROOT(1))
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+s:  28          14           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:     2895       38       17      0      1      0      0
+
+*** 2023-03-20T19:28:10.644466+09:00 (CDB$ROOT(1))
+s:  22           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2422        0        0      0      0      0      0
+
+*** 2023-03-20T19:33:08.467766+09:00 (CDB$ROOT(1))
+s:  39           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2442        0        1      0      0      0      0
+s:  11          30           0       0.00      0.00           0
+
+*** 2023-03-20T19:38:09.308807+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2855       35       17      1      0      0      0
+
+*** 2023-03-20T19:43:10.229277+09:00 (CDB$ROOT(1))
+s:  19          15           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2453        0        7      0      0      0      0
+
+*** 2023-03-20T19:48:11.057419+09:00 (CDB$ROOT(1))
+s:  22           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2388        0        1      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-20T19:53:09.415939+09:00 (CDB$ROOT(1))
+s:   9          16           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2981       39       27      1      0      0      0
+
+*** 2023-03-20T19:58:10.280306+09:00 (CDB$ROOT(1))
+s:   9           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2421        1        3      0      0      0      0
+
+*** 2023-03-20T20:03:11.211859+09:00 (CDB$ROOT(1))
+s:  20          15           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2462        3        9      0      0      0      0
+s:  12          10           0       0.00      0.00           0
+
+*** 2023-03-20T20:08:09.068661+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2840       39       17      0      1      0      0
+
+*** 2023-03-20T20:13:09.974734+09:00 (CDB$ROOT(1))
+s:  17          32           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2428        0        8      0      0      0      0
+
+*** 2023-03-20T20:18:10.861210+09:00 (CDB$ROOT(1))
+s:  15          30           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2363        0        7      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-20T20:23:11.807791+09:00 (CDB$ROOT(1))
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+s:  18           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:     2884       47       20      1      0      0      0
+
+*** 2023-03-20T20:28:09.692655+09:00 (CDB$ROOT(1))
+s:  16           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2397        0        2      0      0      0      0
+
+*** 2023-03-20T20:33:10.670719+09:00 (CDB$ROOT(1))
+s:  19          31           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2414        1       16      0      0      0      0
+s:  20           0           0       0.00      0.00           0
+
+*** 2023-03-20T20:38:08.628619+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2837       39       11      0      1      0      0
+
+*** 2023-03-20T20:43:09.486671+09:00 (CDB$ROOT(1))
+s:  19          36           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2395        2       12      0      0      0      0
+
+*** 2023-03-20T20:48:10.420982+09:00 (CDB$ROOT(1))
+s:  17          44           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2395        0       13      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-20T20:53:11.268384+09:00 (CDB$ROOT(1))
+s:  11          30           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     3005       40       25      2      0      0      0
+
+*** 2023-03-20T20:58:09.123182+09:00 (CDB$ROOT(1))
+s:  11          27           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2369        0       19      0      0      0      0
+
+*** 2023-03-20T21:03:09.987052+09:00 (CDB$ROOT(1))
+s:  13          42           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2404        2       15      1      0      0      0
+s:  17  4294967295           0       0.00      0.00           0
+
+*** 2023-03-20T21:08:10.890479+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2856       40       18      0      1      0      0
+
+*** 2023-03-20T21:13:11.849711+09:00 (CDB$ROOT(1))
+s:  11          35           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2463        1        7      0      0      0      0
+
+*** 2023-03-20T21:18:09.719466+09:00 (CDB$ROOT(1))
+s:  17          17           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2361        0        4      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-20T21:23:10.628612+09:00 (CDB$ROOT(1))
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+s:  13          16           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:     2863       39       28      1      0      0      0
+
+*** 2023-03-20T21:28:11.494534+09:00 (CDB$ROOT(1))
+s:  13          44           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2407        0        8      0      0      0      0
+
+*** 2023-03-20T21:33:09.346773+09:00 (CDB$ROOT(1))
+s:  16           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2378        0        9      0      0      0      0
+s:  10          31           0       0.00      0.00           0
+
+*** 2023-03-20T21:38:10.420208+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2848       36       20      1      0      0      0
+
+*** 2023-03-20T21:43:11.347974+09:00 (CDB$ROOT(1))
+s:  20           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2413        0       10      0      0      0      0
+
+*** 2023-03-20T21:48:09.182032+09:00 (CDB$ROOT(1))
+s:  42           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2369        1        4      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-20T21:53:10.014160+09:00 (CDB$ROOT(1))
+s:  17          30           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2976       50       29      1      1      0      0
+
+*** 2023-03-20T21:58:09.259315+09:00 (CDB$ROOT(1))
+s:  29  4294967295           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2419        0        8      0      0      0      0
+
+*** 2023-03-20T22:03:10.048979+09:00 (CDB$ROOT(1))
+s:   4          29           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:    10425      294      362     48     51      2      0
+s:  15          60           0       0.15      0.00           0
+
+*** 2023-03-20T22:08:07.897319+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2868       50       25      1      0      0      0
+
+*** 2023-03-20T22:13:08.833681+09:00 (CDB$ROOT(1))
+s:  20         104           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2439        1        8      0      0      0      0
+
+*** 2023-03-20T22:18:09.763240+09:00 (CDB$ROOT(1))
+s:  19          30           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2391        0        9      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-20T22:23:10.617173+09:00 (CDB$ROOT(1))
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+s:  23          29           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:     2973       51       33      1      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-21T18:38:47.757081+09:00 (CDB$ROOT(1))
+s:  44          36  4294967294       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     3756       71       49      3      0      0      0
+
+*** 2023-03-21T18:43:48.589130+09:00 (CDB$ROOT(1))
+s:   8           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2398        0        6      0      0      0      0
+
+*** 2023-03-21T18:48:49.442863+09:00 (CDB$ROOT(1))
+s:   8          31  4294967294       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2404        1        7      0      0      0      0
+
+*** 2023-03-21T18:49:49.634181+09:00 (CDB$ROOT(1))
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+s:   7          15           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:      467        0        1      0      0      0      0
+s:   7          15           0       0.00      0.00           0
+
+*** 2023-03-21T18:54:47.529646+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2868       52       16      1      0      0      0
+
+*** 2023-03-21T18:59:48.424978+09:00 (CDB$ROOT(1))
+s:   8           0  4294967295       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2397        0        7      0      0      0      0
+
+*** 2023-03-21T19:04:49.336003+09:00 (CDB$ROOT(1))
+s:  19          64           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2412        0        7      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-21T19:09:47.140431+09:00 (CDB$ROOT(1))
+s:  13          43           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2881       36       36      0      1      0      0
+
+*** 2023-03-21T19:14:48.002898+09:00 (CDB$ROOT(1))
+s:  23          32           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2419        0        5      0      0      0      0
+
+*** 2023-03-21T19:19:49.034039+09:00 (CDB$ROOT(1))
+s:   7          17  4294967295       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2433        1        6      0      0      0      0
+s:  11          26           0       0.05      0.00           0
+
+*** 2023-03-21T19:24:49.959697+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2907       44       22      0      1      0      0
+
+*** 2023-03-21T19:29:47.855180+09:00 (CDB$ROOT(1))
+s:  20         700  4294967295       0.05      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     3446       55       28      0      0      0      0
+
+*** 2023-03-21T19:34:48.682919+09:00 (CDB$ROOT(1))
+s:  11  4294967295           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2425        4       11      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-21T19:39:49.538581+09:00 (CDB$ROOT(1))
+s:  13          61  4294967294       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     3226       50       30      5      3      0      0
+
+*** 2023-03-21T19:44:47.413620+09:00 (CDB$ROOT(1))
+s:  11          15           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2385        1        6      0      0      0      0
+
+*** 2023-03-21T19:49:48.362294+09:00 (CDB$ROOT(1))
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+s:  12           0  4294967294       0.25      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:     2420        2        6      0      0      0      0
+s:   8          14           0       0.00      0.00           0
+
+*** 2023-03-21T19:54:49.208523+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2810       40       24      2      0      0      0
+
+*** 2023-03-21T19:59:50.033421+09:00 (CDB$ROOT(1))
+s:  11          88  4294967295       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2451        0       17      0      0      0      0
+
+*** 2023-03-21T20:04:47.942241+09:00 (CDB$ROOT(1))
+s:  12          45           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2382        3        9      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-21T20:09:48.832305+09:00 (CDB$ROOT(1))
+s:  11  4294967295           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2889       47       22      2      0      0      0
+
+*** 2023-03-21T20:14:49.705779+09:00 (CDB$ROOT(1))
+s:  10          52           1       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2392        2        6      0      0      0      0
+
+*** 2023-03-21T20:19:47.481299+09:00 (CDB$ROOT(1))
+s:   8  4294967295  4294967295       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2400        0        8      0      0      0      0
+s:  13  4294967295           0       0.00      0.00           0
+
+*** 2023-03-21T20:24:48.341285+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2844       39       22      2      0      0      0
+
+*** 2023-03-21T20:29:49.234691+09:00 (CDB$ROOT(1))
+s:  14           0  4294967295       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2397        1        3      0      0      0      0
+
+*** 2023-03-21T20:34:50.109652+09:00 (CDB$ROOT(1))
+s:  12          15           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2358        0        9      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-21T20:39:48.067849+09:00 (CDB$ROOT(1))
+s:  19           0  4294967294       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2953       52       32      1      1      0      0
+
+*** 2023-03-21T20:44:48.995311+09:00 (CDB$ROOT(1))
+s:  13          26           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2353        0        6      0      0      0      0
+
+*** 2023-03-21T20:49:49.761524+09:00 (CDB$ROOT(1))
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+s:  16          68           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:     2430        0        8      0      0      0      0
+s:  25          44           0       0.00      0.00           0
+
+*** 2023-03-21T20:54:50.563322+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2828       48       27      0      1      0      0
+
+*** 2023-03-21T20:59:48.495774+09:00 (CDB$ROOT(1))
+s:  21           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2424        0       12      1      0      0      0
+
+*** 2023-03-21T21:04:49.371254+09:00 (CDB$ROOT(1))
+s:  20         236           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2678       15       14      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-21T21:09:47.267417+09:00 (CDB$ROOT(1))
+s:  18          15  4294967295       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2858       42       22      0      1      0      0
+
+*** 2023-03-21T21:14:48.150903+09:00 (CDB$ROOT(1))
+s:  10          62           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2396        1       12      0      0      0      0
+
+*** 2023-03-21T21:19:49.007264+09:00 (CDB$ROOT(1))
+s:  18          71  4294967294       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2429        1        8      0      0      0      0
+s:  18          31  4294967294       0.00      0.00           0
+
+*** 2023-03-21T21:24:46.879109+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2803       42       24      1      1      0      0
+
+*** 2023-03-21T21:29:47.730436+09:00 (CDB$ROOT(1))
+s:  25          47  4294967294       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2434        2       13      0      0      0      0
+
+*** 2023-03-21T21:34:48.590178+09:00 (CDB$ROOT(1))
+s:  26          15  4294967295       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2410        0       12      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-21T21:39:49.525942+09:00 (CDB$ROOT(1))
+s:  36          14  4294967295       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     3016       45       36      3      0      0      0
+
+*** 2023-03-21T21:44:47.362034+09:00 (CDB$ROOT(1))
+s:  21          15           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2392        0        6      0      0      0      0
+
+*** 2023-03-21T21:49:48.190625+09:00 (CDB$ROOT(1))
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+s:  11           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:     2393        0        4      0      0      0      0
+s:   3          32           0       0.00      0.00           0
+
+*** 2023-03-21T21:54:49.115189+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2825       40       29      1      0      0      0
+
+*** 2023-03-21T21:59:47.063906+09:00 (CDB$ROOT(1))
+s:   3           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2432        0        8      0      0      0      0
+
+*** 2023-03-21T22:04:47.965745+09:00 (CDB$ROOT(1))
+s:  17          22           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     3266       46       96     39     35      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-21T22:09:48.826946+09:00 (CDB$ROOT(1))
+s:  18          15  4294967295       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2874       47       24      1      1      0      0
+
+*** 2023-03-21T22:14:49.723839+09:00 (CDB$ROOT(1))
+s:  15  4294967295           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2422        1        5      0      0      0      0
+
+*** 2023-03-21T22:19:47.635600+09:00 (CDB$ROOT(1))
+s:  18          16  4294967295       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2414        2        8      0      0      0      0
+s:   9  4294967295  4294967295       0.00      0.00           0
+
+*** 2023-03-21T22:24:48.514371+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2830       44       18      1      0      0      0
+
+*** 2023-03-21T22:29:49.515652+09:00 (CDB$ROOT(1))
+s:  38          15           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2419        6        7      0      0      0      0
+
+*** 2023-03-21T22:32:31.979875+09:00 (CDB$ROOT(1))
+kskvmstatact: op = kslgetl, location = ksugetosstat (Failed to acquire ksuosstatl)
+
+*** 2023-03-21T22:34:47.418467+09:00 (CDB$ROOT(1))
+s:  12          44           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2312        1       12      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-21T22:39:48.363570+09:00 (CDB$ROOT(1))
+s:  11          13           1       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     3011       44       44      0      1      0      0
+
+*** 2023-03-21T22:44:49.215153+09:00 (CDB$ROOT(1))
+s:  10          15           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2378        1        6      1      0      0      0
+
+*** 2023-03-21T22:49:47.194907+09:00 (CDB$ROOT(1))
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+s:  27          45           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:     2374        0       22      0      0      0      0
+s:  31          14  4294967295       0.00      0.00           0
+
+*** 2023-03-21T22:54:48.263561+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2819       41       27      1      1      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-22T18:53:01.969379+09:00 (CDB$ROOT(1))
+s:  19  4294967295           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     4705       82       73      2      1      0      0
+
+*** 2023-03-22T18:58:02.878288+09:00 (CDB$ROOT(1))
+s:   7           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2394        0        2      0      0      0      0
+
+*** 2023-03-22T18:59:03.068401+09:00 (CDB$ROOT(1))
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+s:   9         117          14       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:      521        0        8      0      0      0      0
+s:  10        1060           5       0.05      0.00           0
+
+*** 2023-03-22T19:04:03.954321+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2837       44       26      0      1      0      0
+
+*** 2023-03-22T19:09:01.953575+09:00 (CDB$ROOT(1))
+s:  10          50          15       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2431        2        8      0      0      0      0
+
+*** 2023-03-22T19:14:02.875690+09:00 (CDB$ROOT(1))
+s:  12          79          11       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2401        0       13      0      0      0      0
+s:  15         984           5       0.05      0.00           0
+
+*** 2023-03-22T19:19:03.694382+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2870       41       17      0      1      0      0
+
+*** 2023-03-22T19:19:18.739033+09:00 (CDB$ROOT(1))
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-22T19:24:04.715291+09:00 (CDB$ROOT(1))
+s:  46         132           7       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2386        0       14      0      0      0      0
+
+*** 2023-03-22T19:29:02.648986+09:00 (CDB$ROOT(1))
+s:  16         137           8       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2405        0       10      1      0      0      0
+s:  23         912           5       0.05      0.00           0
+
+*** 2023-03-22T19:34:03.645952+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2842       42       14      1      0      0      0
+
+*** 2023-03-22T19:39:04.642305+09:00 (CDB$ROOT(1))
+s:  19          59           3       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2406        0        6      0      0      0      0
+
+*** 2023-03-22T19:44:02.564337+09:00 (CDB$ROOT(1))
+s:  68          60           4       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2351        0        5      0      0      0      0
+s:  26        1641          29       0.10      0.00           0
+
+*** 2023-03-22T19:49:03.499041+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     3078       40       31      5      1      0      0
+
+*** 2023-03-22T19:49:24.578909+09:00 (CDB$ROOT(1))
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-22T19:54:04.541849+09:00 (CDB$ROOT(1))
+s:  25          65           2       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2423        1        6      0      0      0      0
+
+*** 2023-03-22T19:59:02.513567+09:00 (CDB$ROOT(1))
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+s:  18         128          11       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:     2404        1        9      0      0      0      0
+s:  16        1000           7       0.05      0.00           0
+
+*** 2023-03-22T20:04:03.481816+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2804       45       23      1      1      0      0
+
+*** 2023-03-22T20:09:04.537962+09:00 (CDB$ROOT(1))
+s:  25         111           3       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2398        0       12      0      0      0      0
+
+*** 2023-03-22T20:14:02.471515+09:00 (CDB$ROOT(1))
+s:  24          60          15       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2388        3       11      1      0      0      0
+s:  33         172           6       0.05      0.00           0
+
+*** 2023-03-22T20:19:03.398759+09:00 (CDB$ROOT(1))
+t: [0] rng=1 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2805       21       19      1      1      0      0
+
+*** 2023-03-22T20:19:30.477248+09:00 (CDB$ROOT(1))
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-22T20:24:04.355277+09:00 (CDB$ROOT(1))
+s:  31          24           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2405       19       12      0      0      0      0
+
+*** 2023-03-22T20:29:02.346771+09:00 (CDB$ROOT(1))
+s:  23          93           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2360        0       11      0      0      0      0
+
+*** 2023-03-22T20:34:03.370368+09:00 (CDB$ROOT(1))
+s:  23         151           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2406        2       13      1      0      0      0
+s:  26         115           0       0.00      0.00           0
+
+*** 2023-03-22T20:39:04.345111+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2779       34       30      1      0      0      0
+
+*** 2023-03-22T20:44:05.388727+09:00 (CDB$ROOT(1))
+s:  27           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2375        0        3      0      0      0      0
+
+*** 2023-03-22T20:49:03.495222+09:00 (CDB$ROOT(1))
+s:  28         284           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2542        5       23      1      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-22T20:54:04.473469+09:00 (CDB$ROOT(1))
+s:  31          62           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2773       44       25      0      1      0      0
+
+*** 2023-03-22T20:59:05.405266+09:00 (CDB$ROOT(1))
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+s:  18          65           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:     2436        1        6      1      0      0      0
+
+*** 2023-03-22T21:04:03.983736+09:00 (CDB$ROOT(1))
+s:  13         229           1       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2424        4       12      0      0      0      0
+s:  34  4294967294           0       0.00      0.00           0
+
+*** 2023-03-22T21:09:01.958696+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2695       26       16      1      0      0      0
+
+*** 2023-03-22T21:14:02.965213+09:00 (CDB$ROOT(1))
+s:  20          16           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2418        0       11      0      0      0      0
+
+*** 2023-03-22T21:19:03.882850+09:00 (CDB$ROOT(1))
+s:  21         228           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2430        2       12      1      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-22T21:24:04.938102+09:00 (CDB$ROOT(1))
+s:  21          30           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2741       23       15      1      0      0      0
+
+*** 2023-03-22T21:29:02.967061+09:00 (CDB$ROOT(1))
+s:  21         113           1       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2370        0       14      0      0      0      0
+
+*** 2023-03-22T21:34:04.089276+09:00 (CDB$ROOT(1))
+s:  25          92           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2404        3       13      0      0      0      0
+s:  24           0           0       0.00      0.00           0
+
+*** 2023-03-22T21:39:02.058693+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2753       25        9      1      1      0      0
+
+*** 2023-03-22T21:44:03.077493+09:00 (CDB$ROOT(1))
+s:  26          29           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2421        1       14      0      0      0      0
+
+*** 2023-03-22T21:49:04.037521+09:00 (CDB$ROOT(1))
+s:  22         147           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2497        5       15      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-22T21:54:04.996367+09:00 (CDB$ROOT(1))
+s:  17          39           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2836       22       15      0      1      0      0
+
+*** 2023-03-22T21:59:03.016126+09:00 (CDB$ROOT(1))
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+s:  14          55           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:     2398        1       11      1      0      0      0
+
+*** 2023-03-22T22:04:03.968341+09:00 (CDB$ROOT(1))
+s:  15          65           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     3367       81      117     52     66      3      0
+s:  16          14           0       0.00      0.00           0
+
+*** 2023-03-22T22:09:04.980245+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2808       23       21      1      0      0      0
+
+*** 2023-03-22T22:14:02.897408+09:00 (CDB$ROOT(1))
+s:   7          42           1       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2428        3        7      0      0      0      0
+
+*** 2023-03-22T22:19:03.821403+09:00 (CDB$ROOT(1))
+s:   4          64           1       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2406        0        6      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-22T22:24:04.783461+09:00 (CDB$ROOT(1))
+s:   5           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2821       19       21      1      0      0      0
+
+*** 2023-03-22T22:29:02.628217+09:00 (CDB$ROOT(1))
+s:  15           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2387        0        7      0      0      0      0
+
+*** 2023-03-22T22:34:03.516357+09:00 (CDB$ROOT(1))
+s:   4          16           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2440        0        4      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-23T18:45:06.794173+09:00 (CDB$ROOT(1))
+s:  23          14           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     3913       55       54      2      0      0      0
+
+*** 2023-03-23T18:50:07.830205+09:00 (CDB$ROOT(1))
+s:   7          32           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2419        0        7      0      0      0      0
+
+*** 2023-03-23T18:55:08.846565+09:00 (CDB$ROOT(1))
+s:   7          13           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2429        0        7      0      0      0      0
+s:  11           0           0       0.00      0.00           0
+
+*** 2023-03-23T19:00:09.734794+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2804       19       19      1      0      0      0
+
+*** 2023-03-23T19:05:07.721820+09:00 (CDB$ROOT(1))
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+s:   8           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:     2456        1        5      0      0      0      0
+
+*** 2023-03-23T19:10:08.617397+09:00 (CDB$ROOT(1))
+s:   8          30           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2393        0        5      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-23T19:15:09.587777+09:00 (CDB$ROOT(1))
+s:   9          11           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2830       22       18      1      0      0      0
+
+*** 2023-03-23T19:20:07.516847+09:00 (CDB$ROOT(1))
+s:   9          18           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2362        0       10      0      0      0      0
+
+*** 2023-03-23T19:21:07.755589+09:00 (CDB$ROOT(1))
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+s:  10          44           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:      485        0        3      0      0      0      0
+
+*** 2023-03-23T19:26:08.730329+09:00 (CDB$ROOT(1))
+s:  18          30           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2406        0       11      0      0      0      0
+s:  23          14           0       0.00      0.00           0
+
+*** 2023-03-23T19:31:09.662575+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2787       22       15      2      0      0      0
+
+*** 2023-03-23T19:36:10.559913+09:00 (CDB$ROOT(1))
+s:  27           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2402        1        7      0      0      0      0
+
+*** 2023-03-23T19:41:08.588134+09:00 (CDB$ROOT(1))
+s:  32          47           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2345        0        9      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-23T19:46:09.387358+09:00 (CDB$ROOT(1))
+s:  29          92           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2947       23       27      2      0      0      0
+
+*** 2023-03-23T19:51:07.334292+09:00 (CDB$ROOT(1))
+s:  25          46           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2362        0       14      0      0      0      0
+
+*** 2023-03-23T19:56:08.366843+09:00 (CDB$ROOT(1))
+s:  33          30           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2416        0       12      1      0      0      0
+s:   9           0           0       0.00      0.00           0
+
+*** 2023-03-23T20:01:09.292091+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2768       19       17      1      1      0      0
+
+*** 2023-03-23T20:06:07.219904+09:00 (CDB$ROOT(1))
+s:  19           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2425        0        2      0      0      0      0
+
+*** 2023-03-23T20:11:08.147302+09:00 (CDB$ROOT(1))
+s:  15          31           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2414        0        6      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-23T20:16:09.108527+09:00 (CDB$ROOT(1))
+s:  14  4294967295           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2844       17       17      0      1      0      0
+
+*** 2023-03-23T20:21:10.010322+09:00 (CDB$ROOT(1))
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+s:  11          13           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:     2394        1        7      0      0      0      0
+
+*** 2023-03-23T20:26:08.021916+09:00 (CDB$ROOT(1))
+s:  11          15           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2387        0       11      0      0      0      0
+s:  10          30  4294967295       0.00      0.00           0
+
+*** 2023-03-23T20:31:09.035038+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2816       22       18      1      0      0      0
+
+*** 2023-03-23T20:36:10.039041+09:00 (CDB$ROOT(1))
+s:   8  4294967295           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2410        0        7      0      0      0      0
+
+*** 2023-03-23T20:41:08.011983+09:00 (CDB$ROOT(1))
+s:   9          31           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2361        0        5      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-23T20:46:09.027450+09:00 (CDB$ROOT(1))
+s:  10          30           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     3063       26       23      4      1      1      0
+
+*** 2023-03-23T20:51:10.026966+09:00 (CDB$ROOT(1))
+s:  18          15           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2375        0       13      0      0      0      0
+
+*** 2023-03-23T20:56:08.016623+09:00 (CDB$ROOT(1))
+s:  14  4294967295  4294967295       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2386        3        6      0      0      0      0
+s:  23           0           0       0.00      0.00           0
+
+*** 2023-03-23T21:01:09.047873+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2773       25       12      2      1      0      0
+
+*** 2023-03-23T21:06:07.098237+09:00 (CDB$ROOT(1))
+s:  16          31           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2404        6        9      0      0      0      0
+
+*** 2023-03-23T21:11:07.991600+09:00 (CDB$ROOT(1))
+s:  24           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2398        0        3      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-23T21:16:09.094682+09:00 (CDB$ROOT(1))
+s:  25          45           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2802       20       16      0      1      0      0
+
+*** 2023-03-23T21:21:10.108200+09:00 (CDB$ROOT(1))
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+s:  23          46           0       0.05      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:     2396        1        5      0      0      0      0
+
+*** 2023-03-23T21:26:08.091014+09:00 (CDB$ROOT(1))
+s:  21          15  4294967295       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2409        0       12      0      0      0      0
+s:  16          12           0       0.00      0.00           0
+
+*** 2023-03-23T21:31:09.079989+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2780       21       17      0      1      0      0
+
+*** 2023-03-23T21:36:10.232833+09:00 (CDB$ROOT(1))
+s:  30           6           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2429        1       11      0      0      0      0
+
+*** 2023-03-23T21:41:08.255472+09:00 (CDB$ROOT(1))
+s:  17           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2374        0        0      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-23T21:46:09.252437+09:00 (CDB$ROOT(1))
+s:   9           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2907       25       15      1      0      0      0
+
+*** 2023-03-23T21:51:07.156758+09:00 (CDB$ROOT(1))
+s:   7          16           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2365        0        8      0      0      0      0
+
+*** 2023-03-23T21:56:08.179199+09:00 (CDB$ROOT(1))
+s:   8          16           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2431        0        6      0      0      0      0
+s:   8        4308           0       0.00      0.00           0
+
+*** 2023-03-23T22:01:09.307336+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     3550       41       88     30     48      0      0
+
+*** 2023-03-23T22:06:10.226128+09:00 (CDB$ROOT(1))
+s:   4          46           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2477        0       10      0      0      0      0
+
+*** 2023-03-23T22:11:08.301134+09:00 (CDB$ROOT(1))
+s:   4          15           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2396        0       13      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-23T22:16:09.233826+09:00 (CDB$ROOT(1))
+s:   3          50           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2815       20       18      1      0      0      0
+
+*** 2023-03-23T22:21:10.069365+09:00 (CDB$ROOT(1))
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+s:   3          15           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:     2412        0        5      0      0      0      0
+s:  11           0           0       0.00      0.00           0
+
+*** 2023-03-23T22:31:30.281277+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2836       28       11      1      1      0      0
+
+*** 2023-03-23T22:36:28.180314+09:00 (CDB$ROOT(1))
+s:   3          42           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2382        0        8      0      0      0      0
+
+*** 2023-03-23T22:41:29.071322+09:00 (CDB$ROOT(1))
+s:  12           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2458        1        4      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-23T22:46:30.055236+09:00 (CDB$ROOT(1))
+s:  13          36           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2858       20       14      0      1      0      0
+
+*** 2023-03-23T22:51:28.008825+09:00 (CDB$ROOT(1))
+s:  23          31           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2432        0       11      0      0      0      0
+
+*** 2023-03-23T22:56:29.095837+09:00 (CDB$ROOT(1))
+s:  18          15           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2373        0       11      0      0      0      0
+s:  19          28           0       0.00      0.00           0
+
+*** 2023-03-23T23:01:30.148681+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2848       21       24      2      0      0      0
+
+*** 2023-03-23T23:06:28.049382+09:00 (CDB$ROOT(1))
+s:   9          14           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2372        2        4      0      0      0      0
+
+*** 2023-03-23T23:11:28.889901+09:00 (CDB$ROOT(1))
+s:  18           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2450        0        1      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+s:  19          15           0       0.20      0.05           0
+
+*** 2023-03-24T19:02:22.352810+09:00 (CDB$ROOT(1))
+t: [0] rng=4 rbl=1 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2982       27       25      0      1      0      0
+
+*** 2023-03-24T19:02:23.084951+09:00 (CDB$ROOT(1))
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-24T19:07:18.128593+09:00 (CDB$ROOT(1))
+s:  31          42           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     3965       75       62      0      1      0      0
+
+*** 2023-03-24T19:12:19.057853+09:00 (CDB$ROOT(1))
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+s:   5          26           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:     2439        0        9      0      0      0      0
+
+*** 2023-03-24T19:17:17.019114+09:00 (CDB$ROOT(1))
+s:   3          30           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2465        5       17      0      0      0      0
+s:  12          61           0       0.00      0.00           0
+
+*** 2023-03-24T19:22:17.961670+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2798       16       17      1      0      0      0
+
+*** 2023-03-24T19:27:18.862968+09:00 (CDB$ROOT(1))
+s:  17          30           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2432        0        9      0      0      0      0
+
+*** 2023-03-24T19:28:19.067292+09:00 (CDB$ROOT(1))
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+s:  14          15           9       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:      485        0        1      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-24T19:33:17.021920+09:00 (CDB$ROOT(1))
+s:   5         617          10       0.05      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2792       24       13      1      0      0      0
+
+*** 2023-03-24T19:38:17.959915+09:00 (CDB$ROOT(1))
+s:   5          15          11       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2373        0        5      0      0      0      0
+
+*** 2023-03-24T19:43:18.856209+09:00 (CDB$ROOT(1))
+s:   6          39           9       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2396        1        3      0      0      0      0
+s:   6         667          11       0.05      0.00           0
+
+*** 2023-03-24T19:48:19.854026+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2794       19       19      1      0      0      0
+
+*** 2023-03-24T19:53:17.752140+09:00 (CDB$ROOT(1))
+s:   3          91           3       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2396        0       11      0      0      0      0
+
+*** 2023-03-24T19:58:18.579928+09:00 (CDB$ROOT(1))
+s:   3          15           2       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2398        0        4      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-24T20:03:19.541132+09:00 (CDB$ROOT(1))
+s:  22         939           0       0.05      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2953       26       23      1      1      0      0
+
+*** 2023-03-24T20:08:17.583487+09:00 (CDB$ROOT(1))
+s:  25          30           3       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2409        1        6      0      0      0      0
+
+*** 2023-03-24T20:13:18.607306+09:00 (CDB$ROOT(1))
+s:  20          98           1       0.15      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2435        0       13      0      0      0      0
+s:  21         675           0       0.05      0.00           0
+
+*** 2023-03-24T20:18:19.715241+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2770       26       13      0      1      0      0
+
+*** 2023-03-24T20:23:17.770407+09:00 (CDB$ROOT(1))
+s:  17          64           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2409        2       12      0      0      0      0
+
+*** 2023-03-24T20:28:18.693954+09:00 (CDB$ROOT(1))
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+s:   4          15           1       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:     2399        0        8      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-24T20:33:19.645671+09:00 (CDB$ROOT(1))
+s:   3         586           1       0.05      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2783       18       17      1      0      0      0
+
+*** 2023-03-24T20:38:17.573126+09:00 (CDB$ROOT(1))
+s:   3          32           4       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2375        1        5      0      0      0      0
+
+*** 2023-03-24T20:43:18.437619+09:00 (CDB$ROOT(1))
+s:  10          84           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2448        2       13      0      0      0      0
+s:  26         711           1       0.05      0.00           0
+
+*** 2023-03-24T20:48:19.349949+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2787       19       19      0      1      0      0
+
+*** 2023-03-24T20:53:17.334901+09:00 (CDB$ROOT(1))
+s:  25          26           1       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2412        2        8      0      0      0      0
+
+*** 2023-03-24T20:58:18.405658+09:00 (CDB$ROOT(1))
+s:   7          39           4       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2420        1        4      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-24T21:03:19.285487+09:00 (CDB$ROOT(1))
+s:  21        1478           1       0.10      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     3022       25       29      3      1      1      0
+
+*** 2023-03-24T21:08:20.319232+09:00 (CDB$ROOT(1))
+s:   8           0           5       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2418        1        4      0      0      0      0
+
+*** 2023-03-24T21:13:18.233623+09:00 (CDB$ROOT(1))
+s:   3          55           1       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2412        1        9      0      0      0      0
+s:  17         595           4       0.00      0.00           0
+
+*** 2023-03-24T21:18:19.208764+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2781       17       13      0      1      0      0
+
+*** 2023-03-24T21:23:17.144884+09:00 (CDB$ROOT(1))
+s:  24         103           2       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2381        0       10      0      0      0      0
+
+*** 2023-03-24T21:28:18.143115+09:00 (CDB$ROOT(1))
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+s:   6          86           4       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:     2361        1       13      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-24T21:33:19.132279+09:00 (CDB$ROOT(1))
+s:   5         647           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2840       20       17      1      0      0      0
+
+*** 2023-03-24T21:38:17.076053+09:00 (CDB$ROOT(1))
+s:   2          75           4       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2360        0       14      0      0      0      0
+
+*** 2023-03-24T21:43:17.956853+09:00 (CDB$ROOT(1))
+s:   2          44           4       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2452        0       11      0      0      0      0
+s:   7         679           4       0.00      0.00           0
+
+*** 2023-03-24T21:48:18.833673+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2803       19       16      0      1      0      0
+
+*** 2023-03-24T21:53:19.757964+09:00 (CDB$ROOT(1))
+s:   6          88           1       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2430        1        7      0      0      0      0
+
+*** 2023-03-24T21:58:17.670283+09:00 (CDB$ROOT(1))
+s:   9           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2381        0        5      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-24T22:03:18.575884+09:00 (CDB$ROOT(1))
+s:   5         803           4       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     3892       94      113     54     63      2      0
+
+*** 2023-03-24T22:08:19.540123+09:00 (CDB$ROOT(1))
+s:   5          14           1       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2472        0        5      0      0      0      0
+
+*** 2023-03-24T22:13:17.408279+09:00 (CDB$ROOT(1))
+s:   2          86           1       0.15      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2408        1       11      0      0      0      0
+s:   5         613           1       0.00      0.00           0
+
+*** 2023-03-24T22:18:18.269550+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2784       19       15      1      0      0      0
+
+*** 2023-03-24T22:23:19.168512+09:00 (CDB$ROOT(1))
+s:  21          39           4       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2421        1       10      0      0      0      0
+
+*** 2023-03-24T22:28:17.168396+09:00 (CDB$ROOT(1))
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+s:  18          68           3       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:     2381        0        7      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-24T22:33:18.219501+09:00 (CDB$ROOT(1))
+s:  27         777           2       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2798       21       17      0      1      0      0
+
+*** 2023-03-24T22:38:19.218484+09:00 (CDB$ROOT(1))
+s:  19          27           1       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2401        1        7      0      0      0      0
+
+*** 2023-03-24T22:43:20.202874+09:00 (CDB$ROOT(1))
+s:  23          75           1       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2429        1        8      0      0      0      0
+s:  14         653           0       0.00      0.00           0
+
+*** 2023-03-24T22:48:18.170282+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2763       21       14      0      1      0      0
+
+*** 2023-03-24T22:53:19.146986+09:00 (CDB$ROOT(1))
+s:   9          83           4       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2448        0        8      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-25T20:20:37.620648+09:00 (CDB$ROOT(1))
+s:  38        7749        4087       0.40      0.05           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     5008      111      117     48      9      0      0
+
+*** 2023-03-25T20:25:38.550539+09:00 (CDB$ROOT(1))
+s:  14          25           9       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2424        1        4      0      0      0      0
+
+*** 2023-03-25T20:30:39.510687+09:00 (CDB$ROOT(1))
+s:  12          58          20       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2450        1       11      0      0      0      0
+s:  12         656          25       0.00      0.00           0
+
+*** 2023-03-25T20:35:40.397044+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2756       16       16      1      0      0      0
+
+*** 2023-03-25T20:40:38.352356+09:00 (CDB$ROOT(1))
+s:   4         103          17       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2393        0        9      0      0      0      0
+
+*** 2023-03-25T20:45:39.371669+09:00 (CDB$ROOT(1))
+s:   4          15          10       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2369        0        8      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-25T20:50:40.394018+09:00 (CDB$ROOT(1))
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+s:   4         761          21       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:     2884       25       16      0      1      0      0
+
+*** 2023-03-25T20:55:38.440551+09:00 (CDB$ROOT(1))
+s:   4           0          12       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2386        2        8      0      0      0      0
+
+*** 2023-03-25T21:00:39.405443+09:00 (CDB$ROOT(1))
+s:   8       14681         226       0.25      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     4068      129      138     62     37      3      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-25T21:59:24.458268+09:00 (CDB$ROOT(1))
+s:  18          83           1       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     4027       90      114     34      8      1      0
+
+*** 2023-03-25T22:00:24.685121+09:00 (CDB$ROOT(1))
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+s:  27  4294967295  4294967295       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:      483        0        0      0      0      0      0
+
+*** 2023-03-25T22:05:22.791773+09:00 (CDB$ROOT(1))
+s:  18          46           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2392        4       12      0      0      0      0
+
+*** 2023-03-25T22:10:23.843691+09:00 (CDB$ROOT(1))
+s:  33          30           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2474        5       16      0      0      0      0
+s:  22          29           0       0.00      0.00           0
+
+*** 2023-03-25T22:15:24.881840+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2809       48       21      4      0      0      0
+
+*** 2023-03-25T22:20:22.872827+09:00 (CDB$ROOT(1))
+s:  24          15           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2404        0       14      0      0      0      0
+
+*** 2023-03-25T22:25:23.832841+09:00 (CDB$ROOT(1))
+s:  27          15           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2378        1        6      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-25T22:30:21.776783+09:00 (CDB$ROOT(1))
+s:  18          30           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2827       42       32      1      0      0      0
+
+*** 2023-03-25T22:35:22.741347+09:00 (CDB$ROOT(1))
+s:  15          30           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2399        0        7      0      0      0      0
+
+*** 2023-03-25T22:40:23.723945+09:00 (CDB$ROOT(1))
+s:  19  4294967295           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2403        1       14      0      0      0      0
+s:  19          30           0       0.00      0.00           0
+
+*** 2023-03-25T22:45:24.637345+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2791       36       29      0      1      0      0
+
+*** 2023-03-25T22:50:22.642057+09:00 (CDB$ROOT(1))
+s:  22           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2391        0        2      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-26T10:56:52.830665+09:00 (CDB$ROOT(1))
+s:  28          12  4294967295       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     5475      183      244     94     71      1      0
+
+*** 2023-03-26T11:01:53.831863+09:00 (CDB$ROOT(1))
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+s:  11          31           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:     2433        0       15      0      0      0      0
+
+*** 2023-03-26T11:06:54.860571+09:00 (CDB$ROOT(1))
+s:  21          42           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2465        0        9      0      0      0      0
+s:  10          61           0       0.00      0.00           0
+
+*** 2023-03-26T11:11:52.793256+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2836       32       32      3      0      0      0
+
+*** 2023-03-26T11:16:53.620116+09:00 (CDB$ROOT(1))
+s:  13           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2466        1        5      0      0      0      0
+
+*** 2023-03-26T11:21:54.537116+09:00 (CDB$ROOT(1))
+s:  19           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2392        1        5      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-26T11:26:52.517744+09:00 (CDB$ROOT(1))
+s:  19           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2870       33       27      1      0      0      0
+
+*** 2023-03-26T11:31:53.494113+09:00 (CDB$ROOT(1))
+s:  19           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2414        0        1      0      0      0      0
+
+*** 2023-03-26T11:36:54.487101+09:00 (CDB$ROOT(1))
+s:  17           0  4294967295       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2459        0        6      0      0      0      0
+s:  19          15           0       0.00      0.00           0
+
+*** 2023-03-26T11:41:55.402346+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2840       39       22      0      1      0      0
+
+*** 2023-03-26T11:46:53.325542+09:00 (CDB$ROOT(1))
+s:  19           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2443        1        2      0      0      0      0
+
+*** 2023-03-26T11:51:54.208448+09:00 (CDB$ROOT(1))
+s:  19           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2420        0        2      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-26T11:56:55.102848+09:00 (CDB$ROOT(1))
+s:   8          40           0       0.15      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     3061       41       35      1      0      0      0
+
+*** 2023-03-26T12:01:53.153188+09:00 (CDB$ROOT(1))
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+s:   7          45           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:     2398        1       13      1      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-26T13:10:41.950712+09:00 (CDB$ROOT(1))
+s:  14        1625         281       0.10      0.15           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     3074       51       55      1      1      0      0
+
+*** 2023-03-26T13:15:42.892486+09:00 (CDB$ROOT(1))
+s:   4           0           4       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2421        1        3      0      0      0      0
+
+*** 2023-03-26T13:20:43.858665+09:00 (CDB$ROOT(1))
+s:   4          50           4       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2457        1        6      0      0      0      0
+s:   5        1057           8       0.05      0.00           0
+
+*** 2023-03-26T13:25:44.725342+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2775       36       29      1      1      0      0
+
+*** 2023-03-26T13:30:42.669609+09:00 (CDB$ROOT(1))
+s:  16         133          16       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2387        0       11      0      0      0      0
+
+*** 2023-03-26T13:35:43.668438+09:00 (CDB$ROOT(1))
+s:  23          45           5       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2405        0        8      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-26T13:40:44.636095+09:00 (CDB$ROOT(1))
+s:  19         908          47       0.05      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2857       35       39      2      0      0      0
+
+*** 2023-03-26T13:45:42.577682+09:00 (CDB$ROOT(1))
+s:  17           0           3       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2408        0        3      0      0      0      0
+
+*** 2023-03-26T13:50:43.507261+09:00 (CDB$ROOT(1))
+s:  18          19           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2454        0       10      0      0      0      0
+s:  28          15           0       0.00      0.00           0
+
+*** 2023-03-26T13:55:44.424060+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2423        6        7      1      0      0      0
+
+*** 2023-03-26T14:00:45.522896+09:00 (CDB$ROOT(1))
+s:  16          30           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2775       31       33      4      0      0      0
+
+*** 2023-03-26T14:05:43.587212+09:00 (CDB$ROOT(1))
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+s:  17          16           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:     2391        1        8      0      0      0      0
+
+*** 2023-03-26T14:10:44.541670+09:00 (CDB$ROOT(1))
+s:  23         316           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2656        6       16      2      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-26T14:15:45.448970+09:00 (CDB$ROOT(1))
+s:   8          16           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2770       41       27      2      1      0      0
+
+*** 2023-03-26T14:20:43.368963+09:00 (CDB$ROOT(1))
+s:   5          43           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2373        0       10      0      0      0      0
+
+*** 2023-03-26T14:25:44.284378+09:00 (CDB$ROOT(1))
+s:  14          15           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2422        0        8      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-26T16:58:02.620678+09:00 (CDB$ROOT(1))
+s:  37       16746           3       0.35      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     7667      370      435    120    109     13      0
+
+*** 2023-03-26T17:03:03.665841+09:00 (CDB$ROOT(1))
+s:  14           7  4294967295       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     3063       36       53     18      5      0      0
+
+*** 2023-03-26T17:08:04.589685+09:00 (CDB$ROOT(1))
+s:  12  4294967295  4294967295       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2483        6       12      0      0      0      0
+s:  10          89           0       0.00      0.00           0
+
+*** 2023-03-26T17:13:02.506072+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     3034       66       52      2      3      0      0
+
+*** 2023-03-26T17:18:03.483247+09:00 (CDB$ROOT(1))
+s:  13          30           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2488        5        5      0      0      0      0
+
+*** 2023-03-26T17:23:04.495955+09:00 (CDB$ROOT(1))
+s:   8          31  4294967295       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2431        0        7      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-26T17:28:02.391456+09:00 (CDB$ROOT(1))
+s:   6          62  4294967295       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2933       43       60      1      0      0      0
+
+*** 2023-03-26T17:33:03.343243+09:00 (CDB$ROOT(1))
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+s:   5           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:     2398        0        4      0      0      0      0
+
+*** 2023-03-26T17:38:04.446597+09:00 (CDB$ROOT(1))
+s:  14          15           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2434        0        8      0      0      0      0
+s:  21          15           0       0.00      0.00           0
+
+*** 2023-03-26T17:43:02.476617+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2805       46       48      2      0      0      0
+
+*** 2023-03-26T17:48:03.422729+09:00 (CDB$ROOT(1))
+s:  14          39           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2455        1       12      0      0      0      0
+
+*** 2023-03-26T17:49:03.651986+09:00 (CDB$ROOT(1))
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+s:  19          63  4294967295       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:      472        0        3      0      0      0      0
+
+*** 2023-03-26T17:54:04.562910+09:00 (CDB$ROOT(1))
+s:  12          31           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2414        0       11      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-26T17:59:02.562349+09:00 (CDB$ROOT(1))
+s:  14         142           1       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     3136       49       56      4      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-26T19:25:53.021298+09:00 (CDB$ROOT(1))
+s:  12          15           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     3551       77       68      4      1      0      0
+
+*** 2023-03-26T19:30:54.011232+09:00 (CDB$ROOT(1))
+s:   6           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2433        0        7      0      0      0      0
+
+*** 2023-03-26T19:35:51.983984+09:00 (CDB$ROOT(1))
+s:   7           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2454        0        4      0      0      0      0
+s:  11          30           0       0.00      0.00           0
+
+*** 2023-03-26T19:40:53.001349+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2860       45       47      2      0      0      0
+
+*** 2023-03-26T19:45:54.004776+09:00 (CDB$ROOT(1))
+s:   7          15           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2442        1        4      0      0      0      0
+
+*** 2023-03-26T19:50:55.019150+09:00 (CDB$ROOT(1))
+s:  16          15           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2427        0        5      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-26T19:55:52.973819+09:00 (CDB$ROOT(1))
+s:  14          15           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2844       47       48      1      0      0      0
+
+*** 2023-03-26T20:00:53.929067+09:00 (CDB$ROOT(1))
+s:   4          16           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2434        0        7      0      0      0      0
+
+*** 2023-03-26T20:05:48.563298+09:00 (CDB$ROOT(1))
+s:   3          26           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2453        2       11      0      0      0      0
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+
+*** 2023-03-26T20:10:49.511279+09:00 (CDB$ROOT(1))
+s:   3          50           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:     2816       41       45      1      0      0      0
+
+*** 2023-03-26T20:15:50.562880+09:00 (CDB$ROOT(1))
+s:   3          45           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2438        1        4      0      0      0      0
+
+*** 2023-03-26T20:20:51.510029+09:00 (CDB$ROOT(1))
+s:   3         171           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2477        3       11      1      0      0      0
+
+*** 2023-03-26T20:22:15.752590+09:00 (CDB$ROOT(1))
+kgsksysstop: successful; Total stall time = 0 ms.
+s:   5           0           0       0.00      0.00           0
+
+*** 2023-03-26T20:25:49.421725+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     3008       40       45      2      0      0      0
+
+*** 2023-03-26T20:30:50.378416+09:00 (CDB$ROOT(1))
+s:   3          14           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2388        1       11      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-26T20:58:05.666428+09:00 (CDB$ROOT(1))
+s:  26        1601         256       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2976       55       58      3      0      0      0
+
+*** 2023-03-26T21:03:03.575328+09:00 (CDB$ROOT(1))
+s:  12          15           5       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     6312      176      270     96     48      2      0
+
+*** 2023-03-26T21:08:04.508284+09:00 (CDB$ROOT(1))
+s:  17          69           2       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     1911        3       13      0      0      0      0
+s:   9        1412           4       0.00      0.00           0
+
+*** 2023-03-26T21:13:05.433360+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2340       44       40      1      1      0      0
+
+*** 2023-03-26T21:18:06.402205+09:00 (CDB$ROOT(1))
+s:  15          74           4       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     1919        0       10      0      0      0      0
+
+*** 2023-03-26T21:23:04.386825+09:00 (CDB$ROOT(1))
+s:  14         139           4       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     1946        2       14      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-26T21:28:05.275669+09:00 (CDB$ROOT(1))
+s:  38        1343          16       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2365       37       50      1      0      0      0
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+
+*** 2023-03-26T21:51:44.866243+09:00 (CDB$ROOT(1))
+s:  45          36           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:     2548       43       39      1      0      0      0
+
+*** 2023-03-26T21:56:43.855666+09:00 (CDB$ROOT(1))
+s:  34           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     1692        0        5      0      0      0      0
+
+*** 2023-03-26T21:57:53.156109+09:00 (CDB$ROOT(1))
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-26T22:01:44.944043+09:00 (CDB$ROOT(1))
+s:  20          24           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2014       13       22      3      1      0      0
+s:  22          35           0       0.00      0.00           0
+
+*** 2023-03-26T22:06:44.385418+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2145       46       62      4      1      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-27T22:11:29.186980+09:00 (CDB$ROOT(1))
+s:  29           8  4294967295       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     7205      148      239     59     45      3      0
+
+*** 2023-03-27T22:16:30.094409+09:00 (CDB$ROOT(1))
+s:  23          53           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2421        2        7      0      0      0      0
+
+*** 2023-03-27T22:21:31.081738+09:00 (CDB$ROOT(1))
+s:  22          13           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2437        1       10      0      0      0      0
+s:  18          16           0       0.00      0.00           0
+
+*** 2023-03-27T22:26:29.049635+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2769       43       31      0      1      0      0
+
+*** 2023-03-27T22:31:30.025630+09:00 (CDB$ROOT(1))
+s:  18           0  4294967295       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2476        0        7      0      0      0      0
+
+*** 2023-03-27T22:36:31.021882+09:00 (CDB$ROOT(1))
+s:  19          16           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2408        2        5      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-27T22:41:29.101325+09:00 (CDB$ROOT(1))
+s:  18          15           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2996       68       40      3      0      0      0
+
+*** 2023-03-27T22:46:30.131717+09:00 (CDB$ROOT(1))
+s:  35          15           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2384        0       11      0      0      0      0
+
+*** 2023-03-27T22:51:31.113905+09:00 (CDB$ROOT(1))
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+s:  33           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:     2451        0        7      0      0      0      0
+s:  38          63           0       0.00      0.00           0
+
+*** 2023-03-27T22:56:32.119338+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2777       43       34      0      1      0      0
+
+*** 2023-03-27T23:01:30.151709+09:00 (CDB$ROOT(1))
+s:  32          35           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2446        2       12      1      0      0      0
+
+*** 2023-03-27T23:06:31.106710+09:00 (CDB$ROOT(1))
+s:  19          85           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2421        3        7      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-27T23:11:29.049776+09:00 (CDB$ROOT(1))
+s:  26  4294967295           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2979       44       33      1      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-28T18:42:14.814364+09:00 (CDB$ROOT(1))
+s:   6           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     4077       74      101      1      0      0      0
+
+*** 2023-03-28T18:47:15.897057+09:00 (CDB$ROOT(1))
+s:  10           9           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2434        3       14      0      0      0      0
+
+*** 2023-03-28T18:52:14.013186+09:00 (CDB$ROOT(1))
+s:   7           0           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2443        1        3      0      0      0      0
+s:  16           0           0       0.00      0.00           0
+
+*** 2023-03-28T18:57:15.020977+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2822       36       31      1      0      0      0
+
+*** 2023-03-28T19:02:16.078864+09:00 (CDB$ROOT(1))
+s:  16          50           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2435        1        7      0      0      0      0
+
+*** 2023-03-28T19:07:14.076269+09:00 (CDB$ROOT(1))
+s:  19          29           0       0.10      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2384        2        6      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-28T19:12:15.131034+09:00 (CDB$ROOT(1))
+s:  12          14           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2855       44       33      1      0      0      0
+
+*** 2023-03-28T19:17:16.222387+09:00 (CDB$ROOT(1))
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+s:  11          15           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:     2415        0       12      0      0      0      0
+
+*** 2023-03-28T19:22:14.188627+09:00 (CDB$ROOT(1))
+s:  17          61           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2390        1       12      0      0      0      0
+s:  13          63           0       0.00      0.00           0
+
+*** 2023-03-28T19:27:15.146803+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2822       44       34      1      0      0      0
+
+*** 2023-03-28T19:32:16.118352+09:00 (CDB$ROOT(1))
+s:  14          16           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2404        0       13      0      0      0      0
+
+*** 2023-03-28T19:33:16.338246+09:00 (CDB$ROOT(1))
+s: cpu%      cputm       cpuwt     avgrun     avgwt       actps
+s:  18          28           5       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:      < 5     < 10     < 50  < 100  < 200 < 1000   > 1K
+r:      493        0        2      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.
+
+*** 2023-03-28T19:38:14.489226+09:00 (CDB$ROOT(1))
+s:  23         340         106       0.05      0.00           0
+t: [0] rng=1 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2768       10       22      2      0      0      0
+
+*** 2023-03-28T19:43:15.509040+09:00 (CDB$ROOT(1))
+s:  14          63           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2550       36       28      0      0      0      0
+
+*** 2023-03-28T19:48:13.546274+09:00 (CDB$ROOT(1))
+s:  23          96           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2384        0        9      0      0      0      0
+s:  19         118           0       0.00      0.00           0
+
+*** 2023-03-28T19:53:14.564782+09:00 (CDB$ROOT(1))
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2417        2       11      0      0      0      0
+
+*** 2023-03-28T19:58:15.606443+09:00 (CDB$ROOT(1))
+s:  17          15           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2772       42       28      0      1      0      0
+
+*** 2023-03-28T20:03:16.548296+09:00 (CDB$ROOT(1))
+s:  29          32           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2417        0        6      1      0      0      0
+
+*** 2023-03-28T20:08:14.631160+09:00 (CDB$ROOT(1))
+s:  62         126           0       0.00      0.00           0
+t: [0] rng=0 rbl=0 lowt=2 uadj=1 madj=0 hid=2 dyn=[3-5]
+r:     2439        3       11      0      0      0      0
+kgsksysstop: successful; Total stall time = 0 ms.

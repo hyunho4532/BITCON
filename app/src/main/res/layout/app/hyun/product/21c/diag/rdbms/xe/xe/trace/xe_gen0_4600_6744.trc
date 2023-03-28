@@ -1,0 +1,39 @@
+Trace file C:\APP\HYUN\PRODUCT\21C\diag\rdbms\xe\xe\trace\xe_gen0_4600_6744.trc
+Oracle Database 21c Express Edition Release 21.0.0.0.0 - Production
+Version 21.3.0.0.0
+Build label:    RDBMS_21.3.0.0.0_WINDOWS.X64_210927
+Windows NT Version V10.0  OS Build 19044
+ORACLE_HOME = C:\app\hyun\product\21c\dbhomeXE
+Node name           : DESKTOP-JPA1DKK
+CPU                 : 6 - type 86646 physical cores
+Process Affinity    : 0x0000000000000000
+Memory (Avail/Total): Ph:13711M/16317M, Ph+PgF:20309M/28093M 
+Instance name: xe
+Redo thread mounted by this instance: 1
+Oracle process number: 7
+Windows thread id: 4600, thread id: 6744, image: ORACLE.EXE (GEN0)
+
+
+*** 2023-03-02T21:47:05.824904+09:00 (CDB$ROOT(1))
+*** SESSION ID:(125.21200) 2023-03-02T21:47:05.824904+09:00
+*** CLIENT ID:() 2023-03-02T21:47:05.824904+09:00
+*** SERVICE NAME:(SYS$BACKGROUND) 2023-03-02T21:47:05.824904+09:00
+*** MODULE NAME:() 2023-03-02T21:47:05.824904+09:00
+*** ACTION NAME:() 2023-03-02T21:47:05.824904+09:00
+*** CLIENT DRIVER:(SERVER) 2023-03-02T21:47:05.824904+09:00
+*** CONTAINER ID:(1) 2023-03-02T21:47:05.824904+09:00
+*** CONTAINER ID:(1) 2023-03-02T21:47:05.824904+09:00
+ 
+ksuid_gen failed. Err Category: 27156,              Err Operation: skgp_get_mac_addr_getadapterinfo, Err Location skgpgetinfo1,             Err Info 작업을 완료했습니다.
+ksuid_gen failed. Err Category: 27156,              Err Operation: skgp_get_mac_addr_getadapterinfo, Err Location skgpgetinfo1,             Err Info 작업을 완료했습니다.
+ksuid_gen failed. Err Category: 27156,              Err Operation: skgp_get_mac_addr_getadapterinfo, Err Location skgpgetinfo1,             Err Info 작업을 완료했습니다.
+ksuid_gen failed. Err Category: 27156,              Err Operation: skgp_get_mac_addr_getadapterinfo, Err Location skgpgetinfo1,             Err Info 작업을 완료했습니다.
+ksuid_gen failed. Err Category: 27156,              Err Operation: skgp_get_mac_addr_getadapterinfo, Err Location skgpgetinfo1,             Err Info 작업을 완료했습니다.
+ksuid_gen failed. Err Category: 27156,              Err Operation: skgp_get_mac_addr_getadapterinfo, Err Location skgpgetinfo1,             Err Info 작업을 완료했습니다.
+ksuid_gen failed. Err Category: 27156,              Err Operation: skgp_get_mac_addr_getadapterinfo, Err Location skgpgetinfo1,             Err Info 작업을 완료했습니다.
+ksuid_gen failed. Err Category: 27156,              Err Operation: skgp_get_mac_addr_getadapterinfo, Err Location skgpgetinfo1,             Err Info 작업을 완료했습니다.
+ksuid_gen failed. Err Category: 27156,              Err Operation: skgp_get_mac_addr_getadapterinfo, Err Location skgpgetinfo1,             Err Info 작업을 완료했습니다.
+ksuid_gen failed. Err Category: 27156,              Err Operation: skgp_get_mac_addr_getadapterinfo, Err Location skgpgetinfo1,             Err Info 작업을 완료했습니다.
+ksuid_gen failed. Err Category: 27156,              Err Operation: skgp_get_mac_addr_getadapterinfo, Err Location skgpgetinfo1,             Err Info 작업을 완료했습니다.
+ksuid_gen failed. Err Category: 27156,              Err Operation: skgp_get_mac_addr_getadapterinfo, Err Location skgpgetinfo1,             Err Info 작업을 완료했습니다.
+ksuid_gen failed. Err Category: 27156,              Err Operation: skgp_get_mac_addr_getadapterinfo, Err Location skgpgetinfo1,             Err Info 작업을 완료했습니다.

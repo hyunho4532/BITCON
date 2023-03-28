@@ -1,0 +1,550 @@
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 14636)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-08-24T18:06:26.433+09:00"
+}
+
+{
+  "NOTIFICATION" : "Shutting down ORACLE instance (immediate) (OS id: 9340_8004)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Shutdown is initiated by sqlplus.exe. ",
+  "CAUSE"        : "A command to shutdown the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1001",
+  "TIME"         : "2022-08-24T18:08:28.508+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 9484)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-08-24T18:08:38.823+09:00"
+}
+
+{
+  "NOTIFICATION" : "Shutting down ORACLE instance (immediate) (OS id: 9340_13340)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Shutdown is initiated by sqlplus.exe. ",
+  "CAUSE"        : "A command to shutdown the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1001",
+  "TIME"         : "2022-08-24T18:11:38.868+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (restrict) (OS id: 11272)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-08-24T18:11:58.887+09:00"
+}
+
+{
+  "NOTIFICATION" : "Shutting down ORACLE instance (immediate) (OS id: 9340_15156)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Shutdown is initiated by sqlplus.exe. ",
+  "CAUSE"        : "A command to shutdown the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1001",
+  "TIME"         : "2022-08-24T18:15:33.393+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 416)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-08-24T18:15:56.373+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 4652)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-08-27T00:37:28.797+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 4908)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-08-31T15:39:06.966+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 5284)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-09-05T16:18:08.847+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 5488)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-09-05T16:34:04.387+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 5140)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-09-05T18:38:15.559+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 5128)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-09-05T18:48:01.450+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 5164)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-09-05T18:55:35.748+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 8076)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-09-08T20:43:33.356+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 5756)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-09-09T09:52:17.704+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 5164)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-09-13T21:52:08.831+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 5344)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-09-14T19:46:55.438+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 5564)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-09-15T20:37:48.171+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 4976)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-09-18T08:56:50.835+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 5252)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-09-18T14:00:45.365+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 4744)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-09-24T08:39:12.747+09:00"
+}
+
+{
+  "NOTIFICATION" : "Shutting down ORACLE instance (immediate) (OS id: 5052_19912)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Shutdown is initiated by sqlplus.exe. ",
+  "CAUSE"        : "A command to shutdown the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1001",
+  "TIME"         : "2022-10-08T18:16:58.626+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 5148)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-10-08T18:22:35.061+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 5228)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-10-08T19:25:56.997+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 5224)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-10-10T17:05:49.732+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 5212)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-10-11T16:47:01.403+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 5236)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-10-11T16:53:35.107+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 5508)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-10-13T12:38:52.470+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 5532)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-10-15T17:17:19.139+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 5348)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-10-20T22:48:53.596+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 4976)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-10-22T20:15:34.765+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 4572)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-11-18T19:29:43.408+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 5480)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-11-19T13:58:12.971+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 5688)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-11-19T18:49:54.686+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 5744)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-11-19T22:31:52.297+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 5340)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-11-20T00:29:02.209+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 5108)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-11-20T22:30:14.077+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 5160)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-11-26T09:11:31.442+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 5452)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-11-26T10:15:05.862+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 5800)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-11-27T22:18:50.674+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 5016)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-12-16T18:03:46.367+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 4792)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-12-17T08:39:23.065+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 5220)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2022-12-21T19:56:37.019+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 5104)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2023-01-02T14:47:04.903+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 5104)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2023-01-09T13:20:07.942+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 5160)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2023-01-21T14:20:34.031+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 4828)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2023-02-25T17:22:29.393+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 5336)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2023-02-25T20:06:12.325+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 4720)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2023-03-01T19:10:56.531+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 4804)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2023-03-01T19:12:36.905+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 4832)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2023-03-09T21:05:51.172+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 4652)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2023-03-19T16:27:54.647+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 5084)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2023-03-19T16:34:16.542+09:00"
+}
+
+{
+  "NOTIFICATION" : "Starting ORACLE instance (normal) (OS id: 5096)",
+  "URGENCY"      : "INFO",
+  "INFO"         : "Additional Information Not Available",
+  "CAUSE"        : "A command to startup the instance was executed",
+  "ACTION"       : "Check alert log for progress and completion of command",
+  "CLASS"        : "CDB Instance / CDB ADMINISTRATOR / AL-1000",
+  "TIME"         : "2023-03-19T16:40:46.382+09:00"
+}

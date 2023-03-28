@@ -1,0 +1,33 @@
+Trace file C:\APP\HYUN\PRODUCT\21C\diag\rdbms\xe\xe\trace\xe_dia0_4152_4408.trc
+Oracle Database 21c Express Edition Release 21.0.0.0.0 - Production
+Version 21.3.0.0.0
+Build label:    RDBMS_21.3.0.0.0_WINDOWS.X64_210927
+Windows NT Version V10.0  OS Build 19044
+ORACLE_HOME = C:\app\hyun\product\21c\dbhomeXE
+Node name           : DESKTOP-JPA1DKK
+CPU                 : 6 - type 86646 physical cores
+Process Affinity    : 0x0000000000000000
+Memory (Avail/Total): Ph:14246M/16317M, Ph+PgF:18681M/25533M 
+Instance name: xe
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 17
+Windows thread id: 4152, thread id: 4408, image: ORACLE.EXE (DIA0)
+
+
+*** 2023-03-19T16:28:05.082831+09:00 (CDB$ROOT(1))
+*** SESSION ID:(625.60489) 2023-03-19T16:28:05.082831+09:00
+*** CLIENT ID:() 2023-03-19T16:28:05.082831+09:00
+*** SERVICE NAME:() 2023-03-19T16:28:05.082831+09:00
+*** MODULE NAME:() 2023-03-19T16:28:05.082831+09:00
+*** ACTION NAME:() 2023-03-19T16:28:05.082831+09:00
+*** CLIENT DRIVER:(SERVER) 2023-03-19T16:28:05.082831+09:00
+*** CONTAINER ID:(1) 2023-03-19T16:28:05.082831+09:00
+*** CONTAINER ID:(1) 2023-03-19T16:28:05.082831+09:00
+ 
+HM: Early Warning is enabled.
+    The output can be found in trace files of the form:
+    xe_dia0_4152_4408_lws_n.trc where n is a number between 1 and 5.
+
+*** 2023-03-19T16:28:05.082831+09:00 (CDB$ROOT(1))
+HM: Moving the default trace file to: xe_dia0_4152_4408_base_1.trc
+ 

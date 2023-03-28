@@ -1,0 +1,28 @@
+Trace file C:\APP\HYUN\PRODUCT\21C\diag\rdbms\xe\xe\trace\xe_fenc_4600_6828.trc
+Oracle Database 21c Express Edition Release 21.0.0.0.0 - Production
+Version 21.3.0.0.0
+Build label:    RDBMS_21.3.0.0.0_WINDOWS.X64_210927
+Windows NT Version V10.0  OS Build 19044
+ORACLE_HOME = C:\app\hyun\product\21c\dbhomeXE
+Node name           : DESKTOP-JPA1DKK
+CPU                 : 6 - type 86646 physical cores
+Process Affinity    : 0x0000000000000000
+Memory (Avail/Total): Ph:14141M/16317M, Ph+PgF:21367M/28093M 
+Instance name: xe
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 27
+Windows thread id: 4600, thread id: 6828, image: ORACLE.EXE (FENC)
+
+
+*** 2023-03-01T19:12:55.416674+09:00 (CDB$ROOT(1))
+*** SESSION ID:(376.5404) 2023-03-01T19:12:55.416674+09:00
+*** CLIENT ID:() 2023-03-01T19:12:55.416674+09:00
+*** SERVICE NAME:() 2023-03-01T19:12:55.416674+09:00
+*** MODULE NAME:() 2023-03-01T19:12:55.416674+09:00
+*** ACTION NAME:() 2023-03-01T19:12:55.416674+09:00
+*** CLIENT DRIVER:(SERVER) 2023-03-01T19:12:55.416674+09:00
+*** CONTAINER ID:(1) 2023-03-01T19:12:55.416674+09:00
+*** CONTAINER ID:(1) 2023-03-01T19:12:55.416674+09:00
+ 
+2023-03-01 19:12:55.401 : [ default][ default] ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2023-03-01 19:12:55.416 : [ default][ default] ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2

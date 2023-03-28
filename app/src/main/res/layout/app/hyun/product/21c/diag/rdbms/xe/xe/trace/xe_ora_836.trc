@@ -1,0 +1,25 @@
+Trace file C:\APP\HYUN\PRODUCT\21C\diag\rdbms\xe\xe\trace\xe_ora_836.trc
+Oracle Database 21c Express Edition Release 21.0.0.0.0 - Production
+Version 21.3.0.0.0
+Build label:    RDBMS_21.3.0.0.0_WINDOWS.X64_210927
+Windows NT Version V10.0  OS Build 19044
+ORACLE_HOME = C:\app\hyun\product\21c\dbhomeXE
+Node name           : DESKTOP-JPA1DKK
+CPU                 : 6 - type 86646 physical cores
+Process Affinity    : 0x0000000000000000
+Memory (Avail/Total): Ph:3555M/16317M, Ph+PgF:5566M/25533M 
+Instance name: xe
+Redo thread mounted by this instance: 1
+Oracle process number: 0
+Windows thread id: 836, image: 
+
+
+*** 2023-03-21T19:28:52.670815+09:00 (CDB$ROOT(1))
+2023-03-21 19:28:52.667 : fsd_notify_cb: FsDirect not implemented
+*** SESSION ID:(636.9667) 2023-03-21T19:28:52.703818+09:00
+*** SERVICE NAME:() 2023-03-21T19:28:52.703818+09:00
+*** MODULE NAME:() 2023-03-21T19:28:52.703818+09:00
+*** ACTION NAME:() 2023-03-21T19:28:52.703818+09:00
+*** CLIENT DRIVER:() 2023-03-21T19:28:52.703818+09:00
+ 
+ksmddg: DGA destroyed

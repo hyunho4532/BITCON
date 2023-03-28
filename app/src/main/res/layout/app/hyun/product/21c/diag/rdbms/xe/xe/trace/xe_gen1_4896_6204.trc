@@ -1,0 +1,36 @@
+Trace file C:\APP\HYUN\PRODUCT\21C\diag\rdbms\xe\xe\trace\xe_gen1_4896_6204.trc
+Oracle Database 21c Express Edition Release 21.0.0.0.0 - Production
+Version 21.3.0.0.0
+Build label:    RDBMS_21.3.0.0.0_WINDOWS.X64_210927
+Windows NT Version V10.0  OS Build 19044
+ORACLE_HOME = C:\app\hyun\product\21c\dbhomeXE
+Node name           : DESKTOP-JPA1DKK
+CPU                 : 6 - type 86646 physical cores
+Process Affinity    : 0x0000000000000000
+Memory (Avail/Total): Ph:11782M/16317M, Ph+PgF:15910M/25533M 
+Instance name: xe
+Redo thread mounted by this instance: 1
+Oracle process number: 10
+Windows thread id: 4896, thread id: 6204, image: ORACLE.EXE (GEN1)
+
+
+*** 2023-03-23T18:41:50.333827+09:00 (CDB$ROOT(1))
+*** SESSION ID:(498.10754) 2023-03-23T18:41:50.333827+09:00
+*** CLIENT ID:() 2023-03-23T18:41:50.333827+09:00
+*** SERVICE NAME:(SYS$BACKGROUND) 2023-03-23T18:41:50.333827+09:00
+*** MODULE NAME:() 2023-03-23T18:41:50.333827+09:00
+*** ACTION NAME:() 2023-03-23T18:41:50.333827+09:00
+*** CLIENT DRIVER:(SERVER) 2023-03-23T18:41:50.333827+09:00
+*** CONTAINER ID:(1) 2023-03-23T18:41:50.333827+09:00
+*** CONTAINER ID:(1) 2023-03-23T18:41:50.333827+09:00
+ 
+ktsmgtur: TUR was not tuned for 72392 secs
+ktsmg_advance_slot(): MMNL advances slot after 72662 seconds
+ktut_advance_slot(): MMNL advances slot after 62 seconds
+MMNL absent for 71169 secs; Foregrounds taking over
+ktsmgtur: TUR was not tuned for 71169 secs
+
+*** 2023-03-24T19:02:21.801808+09:00 (CDB$ROOT(1))
+ktsmg_advance_slot(): MMNL advances slot after 71494 seconds
+ktut_advance_slot(): MMNL advances slot after 94 seconds
+MMNL absent for 69964 secs; Foregrounds taking over

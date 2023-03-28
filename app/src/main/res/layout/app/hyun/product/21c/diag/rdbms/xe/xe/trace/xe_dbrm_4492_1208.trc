@@ -1,0 +1,69 @@
+Trace file C:\APP\HYUN\PRODUCT\21C\diag\rdbms\xe\xe\trace\xe_dbrm_4492_1208.trc
+Oracle Database 21c Express Edition Release 21.0.0.0.0 - Production
+Version 21.3.0.0.0
+Build label:    RDBMS_21.3.0.0.0_WINDOWS.X64_210927
+Windows NT Version V10.0  OS Build 19044
+ORACLE_HOME = C:\app\hyun\product\21c\dbhomeXE
+Node name           : DESKTOP-JPA1DKK
+CPU                 : 6 - type 86646 physical cores
+Process Affinity    : 0x0000000000000000
+Memory (Avail/Total): Ph:13119M/16317M, Ph+PgF:21375M/28093M 
+Instance name: xe
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 14
+Windows thread id: 4492, thread id: 1208, image: ORACLE.EXE (DBRM)
+
+
+*** 2023-03-01T19:11:12.965313+09:00 (CDB$ROOT(1))
+*** SESSION ID:(251.4678) 2023-03-01T19:11:12.965313+09:00
+*** CLIENT ID:() 2023-03-01T19:11:12.965313+09:00
+*** SERVICE NAME:() 2023-03-01T19:11:12.965313+09:00
+*** MODULE NAME:() 2023-03-01T19:11:12.965313+09:00
+*** ACTION NAME:() 2023-03-01T19:11:12.965313+09:00
+*** CLIENT DRIVER:(SERVER) 2023-03-01T19:11:12.965313+09:00
+*** CONTAINER ID:(1) 2023-03-01T19:11:12.965313+09:00
+*** CONTAINER ID:(1) 2023-03-01T19:11:12.965313+09:00
+ 
+PGA LIMIT: using pga_aggregate_limit of 2048 MB
+
+*** 2023-03-01T19:11:24.962496+09:00 (CDB$ROOT(1))
+kgsksysstop: blocking mode (2) timestamp: 45903120
+kgsksysstop: successful; Total stall time = 0 ms.
+kgskupdhighthreshdelta(): high_threshold_delta=2
+kgskupdbasethresh(): [0] base=[2-4], dyn=[3-5]
+kgsksysresume: successful
+START RESOURCE MANAGER PLAN/CONSUMER GROUP DUMP
+CDB DEFAULT_CDB_PLAN cpu_count=6 cpu_min=6.00
+  PDB #1 ORA$AUTOTASK_PLAN dirtype=AUTO ulim=9000 shrs=1
+  PDB #1 ORA$ROOT_PLAN shrs=1
+END RESOURCE MANAGER PLAN/CONSUMER GROUP DUMP
+
+*** 2023-03-01T19:11:32.491978+09:00 (CDB$ROOT(1))
+kgsksysstop: blocking mode (2) timestamp: 53439687
+kgsksysstop: successful; Total stall time = 0 ms.
+kgskupdhighthreshdelta(): high_threshold_delta=2
+kgskupdbasethresh(): [0] base=[2-4], dyn=[3-5]
+kgsksysresume: successful
+START RESOURCE MANAGER PLAN/CONSUMER GROUP DUMP
+CDB PE: PDB #2 PDB$SEED dirtype=DEF shrs=6
+PDB #2 PDB$SEED/DEFAULT_PLAN cpu_min=6.00
+  CG   ORA$AUTOTASK MGMT_P1=1 MAX_UTILIZATION_LIMIT=90 
+        SHARES=1 
+  CG   OTHER_GROUPS MGMT_P1=9 SHARES=9 
+  CG   SYS_GROUP MGMT_P1=90 SHARES=90 
+END RESOURCE MANAGER PLAN/CONSUMER GROUP DUMP
+
+*** 2023-03-01T19:11:36.537233+09:00 (CDB$ROOT(1))
+kgsksysstop: blocking mode (2) timestamp: 57491740
+kgsksysstop: successful; Total stall time = 0 ms.
+kgskupdhighthreshdelta(): high_threshold_delta=2
+kgskupdbasethresh(): [0] base=[2-4], dyn=[3-5]
+kgsksysresume: successful
+START RESOURCE MANAGER PLAN/CONSUMER GROUP DUMP
+CDB PE: PDB #3 XEPDB1 dirtype=DEF shrs=6
+PDB #3 XEPDB1/DEFAULT_PLAN cpu_min=6.00
+  CG   ORA$AUTOTASK MGMT_P1=1 MAX_UTILIZATION_LIMIT=90 
+        SHARES=1 
+  CG   OTHER_GROUPS MGMT_P1=9 SHARES=9 
+  CG   SYS_GROUP MGMT_P1=90 SHARES=90 
+END RESOURCE MANAGER PLAN/CONSUMER GROUP DUMP
